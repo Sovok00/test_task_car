@@ -1,0 +1,327 @@
+[2025-05-19T19:39:50.080+0000] {processor.py:186} INFO - Started process (PID=1139) to work on /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:39:50.082+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car_3.py for tasks to queue
+[2025-05-19T19:39:50.091+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:39:50.090+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:39:51.561+0000] {processor.py:925} INFO - DAG(s) 'test_car_3' retrieved from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:39:52.047+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:39:52.044+0000] {override.py:1911} INFO - Created Permission View: can edit on DAG:test_car_3
+[2025-05-19T19:39:52.070+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:39:52.069+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG:test_car_3
+[2025-05-19T19:39:52.100+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:39:52.099+0000] {override.py:1911} INFO - Created Permission View: can read on DAG:test_car_3
+[2025-05-19T19:39:52.133+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:39:52.133+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:test_car_3
+[2025-05-19T19:39:52.161+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:39:52.160+0000] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:test_car_3
+[2025-05-19T19:39:52.186+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:39:52.185+0000] {override.py:1911} INFO - Created Permission View: can create on DAG Run:test_car_3
+[2025-05-19T19:39:52.212+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:39:52.212+0000] {override.py:1911} INFO - Created Permission View: can read on DAG Run:test_car_3
+[2025-05-19T19:39:52.216+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:39:52.214+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-19T19:39:52.246+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:39:52.245+0000] {dag.py:3262} INFO - Creating ORM DAG for test_car_3
+[2025-05-19T19:39:52.308+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:39:52.308+0000] {dag.py:4180} INFO - Setting next_dagrun for test_car_3 to 2025-05-17 00:00:00+00:00, run_after=2025-05-19 00:00:00+00:00
+[2025-05-19T19:39:52.795+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car_3.py took 2.735 seconds
+[2025-05-19T19:40:23.641+0000] {processor.py:186} INFO - Started process (PID=1153) to work on /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:40:23.643+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car_3.py for tasks to queue
+[2025-05-19T19:40:23.648+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:40:23.647+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:40:24.342+0000] {processor.py:925} INFO - DAG(s) 'test_car_3' retrieved from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:40:24.374+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:40:24.373+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-19T19:40:24.412+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:40:24.412+0000] {dag.py:4180} INFO - Setting next_dagrun for test_car_3 to 2025-05-17 00:00:00+00:00, run_after=2025-05-19 00:00:00+00:00
+[2025-05-19T19:40:24.443+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car_3.py took 0.815 seconds
+[2025-05-19T19:40:54.953+0000] {processor.py:186} INFO - Started process (PID=1167) to work on /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:40:54.955+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car_3.py for tasks to queue
+[2025-05-19T19:40:54.960+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:40:54.960+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:40:55.724+0000] {processor.py:925} INFO - DAG(s) 'test_car_3' retrieved from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:40:55.816+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:40:55.814+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-19T19:40:55.970+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car_3.py took 1.025 seconds
+[2025-05-19T19:41:26.445+0000] {processor.py:186} INFO - Started process (PID=1181) to work on /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:41:26.446+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car_3.py for tasks to queue
+[2025-05-19T19:41:26.450+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:41:26.449+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:41:27.083+0000] {processor.py:925} INFO - DAG(s) 'test_car_3' retrieved from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:41:27.118+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:41:27.117+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-19T19:41:27.182+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car_3.py took 0.746 seconds
+[2025-05-19T19:41:57.409+0000] {processor.py:186} INFO - Started process (PID=1195) to work on /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:41:57.413+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car_3.py for tasks to queue
+[2025-05-19T19:41:57.438+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:41:57.437+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:41:58.878+0000] {processor.py:925} INFO - DAG(s) 'test_car_3' retrieved from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:41:58.991+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:41:58.990+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-19T19:41:59.141+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car_3.py took 1.767 seconds
+[2025-05-19T19:42:30.157+0000] {processor.py:186} INFO - Started process (PID=1214) to work on /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:42:30.162+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car_3.py for tasks to queue
+[2025-05-19T19:42:30.173+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:42:30.172+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:42:31.332+0000] {processor.py:925} INFO - DAG(s) 'test_car_3' retrieved from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:42:31.408+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:42:31.406+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-19T19:42:31.526+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car_3.py took 1.410 seconds
+[2025-05-19T19:43:02.317+0000] {processor.py:186} INFO - Started process (PID=1228) to work on /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:43:02.318+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car_3.py for tasks to queue
+[2025-05-19T19:43:02.322+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:43:02.322+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:43:02.866+0000] {processor.py:925} INFO - DAG(s) 'test_car_3' retrieved from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:43:02.898+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:43:02.898+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-19T19:43:02.969+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car_3.py took 0.661 seconds
+[2025-05-19T19:43:33.857+0000] {processor.py:186} INFO - Started process (PID=1242) to work on /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:43:33.859+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car_3.py for tasks to queue
+[2025-05-19T19:43:33.862+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:43:33.862+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:43:34.517+0000] {processor.py:925} INFO - DAG(s) 'test_car_3' retrieved from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:43:34.556+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:43:34.554+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-19T19:43:34.630+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car_3.py took 0.783 seconds
+[2025-05-19T19:44:05.510+0000] {processor.py:186} INFO - Started process (PID=1255) to work on /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:44:05.512+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car_3.py for tasks to queue
+[2025-05-19T19:44:05.519+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:44:05.518+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:44:06.371+0000] {processor.py:925} INFO - DAG(s) 'test_car_3' retrieved from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:44:06.403+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:44:06.402+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-19T19:44:06.466+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car_3.py took 0.972 seconds
+[2025-05-19T19:44:36.673+0000] {processor.py:186} INFO - Started process (PID=1269) to work on /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:44:36.675+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car_3.py for tasks to queue
+[2025-05-19T19:44:36.680+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:44:36.679+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:44:37.227+0000] {processor.py:925} INFO - DAG(s) 'test_car_3' retrieved from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:44:37.260+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:44:37.260+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-19T19:44:37.324+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car_3.py took 0.659 seconds
+[2025-05-19T19:45:07.861+0000] {processor.py:186} INFO - Started process (PID=1283) to work on /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:45:07.863+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car_3.py for tasks to queue
+[2025-05-19T19:45:07.869+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:45:07.869+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:45:08.979+0000] {processor.py:925} INFO - DAG(s) 'test_car_3' retrieved from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:45:09.128+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:45:09.122+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-19T19:45:09.279+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car_3.py took 1.428 seconds
+[2025-05-19T19:45:39.615+0000] {processor.py:186} INFO - Started process (PID=1297) to work on /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:45:39.617+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car_3.py for tasks to queue
+[2025-05-19T19:45:39.624+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:45:39.623+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:45:40.951+0000] {processor.py:925} INFO - DAG(s) 'test_car_3' retrieved from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:45:41.012+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:45:41.011+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-19T19:45:41.144+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car_3.py took 1.540 seconds
+[2025-05-19T19:46:11.289+0000] {processor.py:186} INFO - Started process (PID=1311) to work on /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:46:11.291+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car_3.py for tasks to queue
+[2025-05-19T19:46:11.295+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:46:11.294+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:46:11.868+0000] {processor.py:925} INFO - DAG(s) 'test_car_3' retrieved from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:46:11.903+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:46:11.902+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-19T19:46:11.949+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:46:11.949+0000] {dag.py:4180} INFO - Setting next_dagrun for test_car_3 to 2025-05-19 00:00:00+00:00, run_after=2025-05-20 00:00:00+00:00
+[2025-05-19T19:46:11.979+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car_3.py took 0.698 seconds
+[2025-05-19T19:46:42.738+0000] {processor.py:186} INFO - Started process (PID=1326) to work on /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:46:42.749+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car_3.py for tasks to queue
+[2025-05-19T19:46:42.756+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:46:42.755+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:46:43.362+0000] {processor.py:925} INFO - DAG(s) 'test_car_3' retrieved from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:46:43.398+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:46:43.395+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-19T19:46:43.435+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:46:43.435+0000] {dag.py:4180} INFO - Setting next_dagrun for test_car_3 to 2025-05-19 00:00:00+00:00, run_after=2025-05-20 00:00:00+00:00
+[2025-05-19T19:46:43.467+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car_3.py took 0.750 seconds
+[2025-05-19T19:47:13.936+0000] {processor.py:186} INFO - Started process (PID=1340) to work on /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:47:13.939+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car_3.py for tasks to queue
+[2025-05-19T19:47:13.945+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:47:13.944+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:47:14.530+0000] {processor.py:925} INFO - DAG(s) 'test_car_3' retrieved from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:47:14.567+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:47:14.565+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-19T19:47:14.611+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:47:14.610+0000] {dag.py:4180} INFO - Setting next_dagrun for test_car_3 to 2025-05-19 00:00:00+00:00, run_after=2025-05-20 00:00:00+00:00
+[2025-05-19T19:47:14.643+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car_3.py took 0.718 seconds
+[2025-05-19T19:47:31.824+0000] {processor.py:186} INFO - Started process (PID=1354) to work on /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:47:31.829+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car_3.py for tasks to queue
+[2025-05-19T19:47:31.842+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:47:31.836+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:47:33.109+0000] {processor.py:925} INFO - DAG(s) 'test_car_3' retrieved from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:47:33.141+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:47:33.141+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-19T19:47:33.181+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:47:33.180+0000] {dag.py:4180} INFO - Setting next_dagrun for test_car_3 to 2025-05-19 00:00:00+00:00, run_after=2025-05-20 00:00:00+00:00
+[2025-05-19T19:47:33.215+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car_3.py took 1.416 seconds
+[2025-05-19T19:47:40.659+0000] {processor.py:186} INFO - Started process (PID=1356) to work on /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:47:40.665+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car_3.py for tasks to queue
+[2025-05-19T19:47:40.674+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:47:40.672+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:47:42.432+0000] {processor.py:925} INFO - DAG(s) 'test_car_3' retrieved from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:47:42.545+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:47:42.543+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-19T19:47:42.668+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:47:42.667+0000] {dag.py:4180} INFO - Setting next_dagrun for test_car_3 to 2025-05-19 00:00:00+00:00, run_after=2025-05-20 00:00:00+00:00
+[2025-05-19T19:47:42.793+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car_3.py took 2.168 seconds
+[2025-05-19T19:48:13.376+0000] {processor.py:186} INFO - Started process (PID=1371) to work on /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:48:13.377+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car_3.py for tasks to queue
+[2025-05-19T19:48:13.381+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:48:13.380+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:48:13.959+0000] {processor.py:925} INFO - DAG(s) 'test_car_3' retrieved from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:48:13.996+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:48:13.995+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-19T19:48:14.038+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:48:14.037+0000] {dag.py:4180} INFO - Setting next_dagrun for test_car_3 to 2025-05-19 00:00:00+00:00, run_after=2025-05-20 00:00:00+00:00
+[2025-05-19T19:48:14.068+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car_3.py took 0.702 seconds
+[2025-05-19T19:48:44.210+0000] {processor.py:186} INFO - Started process (PID=1385) to work on /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:48:44.212+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car_3.py for tasks to queue
+[2025-05-19T19:48:44.216+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:48:44.215+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:48:44.670+0000] {processor.py:925} INFO - DAG(s) 'test_car_3' retrieved from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:48:44.702+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:48:44.701+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-19T19:48:44.736+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:48:44.736+0000] {dag.py:4180} INFO - Setting next_dagrun for test_car_3 to 2025-05-19 00:00:00+00:00, run_after=2025-05-20 00:00:00+00:00
+[2025-05-19T19:48:44.766+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car_3.py took 0.565 seconds
+[2025-05-19T19:49:14.942+0000] {processor.py:186} INFO - Started process (PID=1399) to work on /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:49:14.944+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car_3.py for tasks to queue
+[2025-05-19T19:49:14.948+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:49:14.947+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:49:15.533+0000] {processor.py:925} INFO - DAG(s) 'test_car_3' retrieved from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:49:15.575+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:49:15.574+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-19T19:49:15.633+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:49:15.632+0000] {dag.py:4180} INFO - Setting next_dagrun for test_car_3 to 2025-05-19 00:00:00+00:00, run_after=2025-05-20 00:00:00+00:00
+[2025-05-19T19:49:15.695+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car_3.py took 0.762 seconds
+[2025-05-19T19:49:46.468+0000] {processor.py:186} INFO - Started process (PID=1413) to work on /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:49:46.469+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car_3.py for tasks to queue
+[2025-05-19T19:49:46.474+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:49:46.473+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:49:47.131+0000] {processor.py:925} INFO - DAG(s) 'test_car_3' retrieved from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:49:47.224+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:49:47.222+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-19T19:49:47.280+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:49:47.280+0000] {dag.py:4180} INFO - Setting next_dagrun for test_car_3 to 2025-05-19 00:00:00+00:00, run_after=2025-05-20 00:00:00+00:00
+[2025-05-19T19:49:47.324+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car_3.py took 0.867 seconds
+[2025-05-19T19:50:17.593+0000] {processor.py:186} INFO - Started process (PID=1427) to work on /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:50:17.595+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car_3.py for tasks to queue
+[2025-05-19T19:50:17.600+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:50:17.599+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:50:18.494+0000] {processor.py:925} INFO - DAG(s) 'test_car_3' retrieved from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:50:18.553+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:50:18.551+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-19T19:50:18.629+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:50:18.628+0000] {dag.py:4180} INFO - Setting next_dagrun for test_car_3 to 2025-05-19 00:00:00+00:00, run_after=2025-05-20 00:00:00+00:00
+[2025-05-19T19:50:18.701+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car_3.py took 1.117 seconds
+[2025-05-19T19:50:49.132+0000] {processor.py:186} INFO - Started process (PID=1441) to work on /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:50:49.136+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car_3.py for tasks to queue
+[2025-05-19T19:50:49.164+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:50:49.158+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:50:50.212+0000] {processor.py:925} INFO - DAG(s) 'test_car_3' retrieved from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:50:50.311+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:50:50.308+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-19T19:50:50.679+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:50:50.679+0000] {dag.py:4180} INFO - Setting next_dagrun for test_car_3 to 2025-05-19 00:00:00+00:00, run_after=2025-05-20 00:00:00+00:00
+[2025-05-19T19:50:50.731+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car_3.py took 1.672 seconds
+[2025-05-19T19:51:21.470+0000] {processor.py:186} INFO - Started process (PID=1455) to work on /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:51:21.471+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car_3.py for tasks to queue
+[2025-05-19T19:51:21.476+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:51:21.475+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:51:22.747+0000] {processor.py:925} INFO - DAG(s) 'test_car_3' retrieved from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:51:22.838+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:51:22.837+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-19T19:51:22.944+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:51:22.943+0000] {dag.py:4180} INFO - Setting next_dagrun for test_car_3 to 2025-05-19 00:00:00+00:00, run_after=2025-05-20 00:00:00+00:00
+[2025-05-19T19:51:23.019+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car_3.py took 1.558 seconds
+[2025-05-19T19:51:35.425+0000] {processor.py:186} INFO - Started process (PID=1465) to work on /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:51:35.432+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car_3.py for tasks to queue
+[2025-05-19T19:51:35.453+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:51:35.452+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:51:37.742+0000] {processor.py:925} INFO - DAG(s) 'test_car_3' retrieved from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:51:39.251+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:51:39.249+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-19T19:51:39.389+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:51:39.388+0000] {dag.py:4180} INFO - Setting next_dagrun for test_car_3 to 2025-05-17 22:55:00+00:00, run_after=2025-05-19 22:55:00+00:00
+[2025-05-19T19:51:39.497+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car_3.py took 4.125 seconds
+[2025-05-19T19:52:05.193+0000] {processor.py:186} INFO - Started process (PID=1477) to work on /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:52:05.195+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car_3.py for tasks to queue
+[2025-05-19T19:52:05.200+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:52:05.199+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:52:07.161+0000] {processor.py:925} INFO - DAG(s) 'test_car_3' retrieved from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:52:07.194+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:52:07.191+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-19T19:52:07.290+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:52:07.289+0000] {dag.py:4180} INFO - Setting next_dagrun for test_car_3 to 2025-05-17 22:55:00+00:00, run_after=2025-05-19 22:55:00+00:00
+[2025-05-19T19:52:07.400+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car_3.py took 2.220 seconds
+[2025-05-19T19:52:37.664+0000] {processor.py:186} INFO - Started process (PID=1492) to work on /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:52:37.666+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car_3.py for tasks to queue
+[2025-05-19T19:52:37.671+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:52:37.670+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:52:38.232+0000] {processor.py:925} INFO - DAG(s) 'test_car_3' retrieved from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:52:38.267+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:52:38.264+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-19T19:52:38.525+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:52:38.525+0000] {dag.py:4180} INFO - Setting next_dagrun for test_car_3 to 2025-05-17 22:55:00+00:00, run_after=2025-05-19 22:55:00+00:00
+[2025-05-19T19:52:38.583+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car_3.py took 0.931 seconds
+[2025-05-19T19:53:09.229+0000] {processor.py:186} INFO - Started process (PID=1506) to work on /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:53:09.230+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car_3.py for tasks to queue
+[2025-05-19T19:53:09.233+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:53:09.233+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:53:09.708+0000] {processor.py:925} INFO - DAG(s) 'test_car_3' retrieved from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:53:09.739+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:53:09.738+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-19T19:53:09.777+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:53:09.777+0000] {dag.py:4180} INFO - Setting next_dagrun for test_car_3 to 2025-05-17 22:55:00+00:00, run_after=2025-05-19 22:55:00+00:00
+[2025-05-19T19:53:09.809+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car_3.py took 0.589 seconds
+[2025-05-19T19:53:40.577+0000] {processor.py:186} INFO - Started process (PID=1520) to work on /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:53:40.579+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car_3.py for tasks to queue
+[2025-05-19T19:53:40.583+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:53:40.583+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:53:41.065+0000] {processor.py:925} INFO - DAG(s) 'test_car_3' retrieved from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:53:41.098+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:53:41.098+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-19T19:53:41.138+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:53:41.138+0000] {dag.py:4180} INFO - Setting next_dagrun for test_car_3 to 2025-05-17 22:55:00+00:00, run_after=2025-05-19 22:55:00+00:00
+[2025-05-19T19:53:41.381+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car_3.py took 0.812 seconds
+[2025-05-19T19:54:11.934+0000] {processor.py:186} INFO - Started process (PID=1534) to work on /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:54:11.936+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car_3.py for tasks to queue
+[2025-05-19T19:54:11.943+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:54:11.942+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:54:12.804+0000] {processor.py:925} INFO - DAG(s) 'test_car_3' retrieved from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:54:12.845+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:54:12.842+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-19T19:54:13.190+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:54:13.189+0000] {dag.py:4180} INFO - Setting next_dagrun for test_car_3 to 2025-05-17 22:55:00+00:00, run_after=2025-05-19 22:55:00+00:00
+[2025-05-19T19:54:13.231+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car_3.py took 1.311 seconds
+[2025-05-19T19:54:43.791+0000] {processor.py:186} INFO - Started process (PID=1548) to work on /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:54:43.793+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car_3.py for tasks to queue
+[2025-05-19T19:54:43.800+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:54:43.799+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:54:44.822+0000] {processor.py:925} INFO - DAG(s) 'test_car_3' retrieved from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:54:44.881+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:54:44.880+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-19T19:54:44.962+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:54:44.961+0000] {dag.py:4180} INFO - Setting next_dagrun for test_car_3 to 2025-05-17 22:55:00+00:00, run_after=2025-05-19 22:55:00+00:00
+[2025-05-19T19:54:45.011+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car_3.py took 1.234 seconds
+[2025-05-19T19:55:15.723+0000] {processor.py:186} INFO - Started process (PID=1561) to work on /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:55:15.724+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car_3.py for tasks to queue
+[2025-05-19T19:55:15.727+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:55:15.727+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:55:16.534+0000] {processor.py:925} INFO - DAG(s) 'test_car_3' retrieved from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:55:16.566+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:55:16.565+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-19T19:55:16.606+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:55:16.605+0000] {dag.py:4180} INFO - Setting next_dagrun for test_car_3 to 2025-05-17 22:55:00+00:00, run_after=2025-05-19 22:55:00+00:00
+[2025-05-19T19:55:16.849+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car_3.py took 1.139 seconds
+[2025-05-19T19:55:47.361+0000] {processor.py:186} INFO - Started process (PID=1575) to work on /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:55:47.363+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car_3.py for tasks to queue
+[2025-05-19T19:55:47.367+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:55:47.366+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:55:47.877+0000] {processor.py:925} INFO - DAG(s) 'test_car_3' retrieved from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:55:47.912+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:55:47.909+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-19T19:55:48.207+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:55:48.207+0000] {dag.py:4180} INFO - Setting next_dagrun for test_car_3 to 2025-05-17 22:55:00+00:00, run_after=2025-05-19 22:55:00+00:00
+[2025-05-19T19:55:48.235+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car_3.py took 0.881 seconds
+[2025-05-19T19:56:18.933+0000] {processor.py:186} INFO - Started process (PID=1589) to work on /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:56:18.935+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car_3.py for tasks to queue
+[2025-05-19T19:56:18.946+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:56:18.945+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:56:20.042+0000] {processor.py:925} INFO - DAG(s) 'test_car_3' retrieved from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:56:20.081+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:56:20.080+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-19T19:56:20.147+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:56:20.146+0000] {dag.py:4180} INFO - Setting next_dagrun for test_car_3 to 2025-05-17 22:55:00+00:00, run_after=2025-05-19 22:55:00+00:00
+[2025-05-19T19:56:20.210+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car_3.py took 1.306 seconds
+[2025-05-19T19:56:50.790+0000] {processor.py:186} INFO - Started process (PID=1603) to work on /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:56:50.791+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car_3.py for tasks to queue
+[2025-05-19T19:56:50.795+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:56:50.795+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:56:51.477+0000] {processor.py:925} INFO - DAG(s) 'test_car_3' retrieved from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:56:51.506+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:56:51.505+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-19T19:56:51.542+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:56:51.541+0000] {dag.py:4180} INFO - Setting next_dagrun for test_car_3 to 2025-05-17 22:55:00+00:00, run_after=2025-05-19 22:55:00+00:00
+[2025-05-19T19:56:51.571+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car_3.py took 0.791 seconds
+[2025-05-19T19:57:21.754+0000] {processor.py:186} INFO - Started process (PID=1617) to work on /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:57:21.756+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car_3.py for tasks to queue
+[2025-05-19T19:57:21.764+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:57:21.763+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:57:22.608+0000] {processor.py:925} INFO - DAG(s) 'test_car_3' retrieved from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:57:22.664+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:57:22.660+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-19T19:57:22.941+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:57:22.940+0000] {dag.py:4180} INFO - Setting next_dagrun for test_car_3 to 2025-05-17 22:55:00+00:00, run_after=2025-05-19 22:55:00+00:00
+[2025-05-19T19:57:22.970+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car_3.py took 1.225 seconds
+[2025-05-19T19:57:53.934+0000] {processor.py:186} INFO - Started process (PID=1631) to work on /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:57:53.937+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car_3.py for tasks to queue
+[2025-05-19T19:57:53.946+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:57:53.945+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:57:56.140+0000] {processor.py:925} INFO - DAG(s) 'test_car_3' retrieved from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:57:56.304+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:57:56.303+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-19T19:57:56.497+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:57:56.497+0000] {dag.py:4180} INFO - Setting next_dagrun for test_car_3 to 2025-05-17 22:55:00+00:00, run_after=2025-05-19 22:55:00+00:00
+[2025-05-19T19:57:56.603+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car_3.py took 2.707 seconds
+[2025-05-19T19:58:27.494+0000] {processor.py:186} INFO - Started process (PID=1645) to work on /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:58:27.495+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car_3.py for tasks to queue
+[2025-05-19T19:58:27.499+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:58:27.498+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:58:28.562+0000] {processor.py:925} INFO - DAG(s) 'test_car_3' retrieved from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:58:28.612+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:58:28.611+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-19T19:58:28.729+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:58:28.728+0000] {dag.py:4180} INFO - Setting next_dagrun for test_car_3 to 2025-05-17 22:55:00+00:00, run_after=2025-05-19 22:55:00+00:00
+[2025-05-19T19:58:28.833+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car_3.py took 1.347 seconds
+[2025-05-19T19:58:59.110+0000] {processor.py:186} INFO - Started process (PID=1659) to work on /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:58:59.112+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car_3.py for tasks to queue
+[2025-05-19T19:58:59.117+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:58:59.116+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:58:59.815+0000] {processor.py:925} INFO - DAG(s) 'test_car_3' retrieved from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:58:59.843+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:58:59.842+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-19T19:58:59.878+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:58:59.878+0000] {dag.py:4180} INFO - Setting next_dagrun for test_car_3 to 2025-05-17 22:55:00+00:00, run_after=2025-05-19 22:55:00+00:00
+[2025-05-19T19:58:59.907+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car_3.py took 0.811 seconds
+[2025-05-19T19:59:30.209+0000] {processor.py:186} INFO - Started process (PID=1673) to work on /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:59:30.213+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car_3.py for tasks to queue
+[2025-05-19T19:59:30.219+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:59:30.218+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:59:31.004+0000] {processor.py:925} INFO - DAG(s) 'test_car_3' retrieved from /opt/airflow/dags/test_car_3.py
+[2025-05-19T19:59:31.033+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:59:31.032+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-19T19:59:31.067+0000] {logging_mixin.py:190} INFO - [2025-05-19T19:59:31.066+0000] {dag.py:4180} INFO - Setting next_dagrun for test_car_3 to 2025-05-17 22:55:00+00:00, run_after=2025-05-19 22:55:00+00:00
+[2025-05-19T19:59:31.096+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car_3.py took 0.903 seconds
+[2025-05-19T20:00:01.615+0000] {processor.py:186} INFO - Started process (PID=1687) to work on /opt/airflow/dags/test_car_3.py
+[2025-05-19T20:00:01.616+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car_3.py for tasks to queue
+[2025-05-19T20:00:01.623+0000] {logging_mixin.py:190} INFO - [2025-05-19T20:00:01.622+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car_3.py
+[2025-05-19T20:00:03.205+0000] {processor.py:925} INFO - DAG(s) 'test_car_3' retrieved from /opt/airflow/dags/test_car_3.py
+[2025-05-19T20:00:03.243+0000] {logging_mixin.py:190} INFO - [2025-05-19T20:00:03.242+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-19T20:00:03.293+0000] {logging_mixin.py:190} INFO - [2025-05-19T20:00:03.292+0000] {dag.py:4180} INFO - Setting next_dagrun for test_car_3 to 2025-05-17 22:55:00+00:00, run_after=2025-05-19 22:55:00+00:00
+[2025-05-19T20:00:03.378+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car_3.py took 1.774 seconds
+[2025-05-19T20:00:33.843+0000] {processor.py:186} INFO - Started process (PID=1701) to work on /opt/airflow/dags/test_car_3.py
+[2025-05-19T20:00:33.844+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car_3.py for tasks to queue
+[2025-05-19T20:00:33.849+0000] {logging_mixin.py:190} INFO - [2025-05-19T20:00:33.849+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car_3.py
+[2025-05-19T20:00:34.664+0000] {processor.py:925} INFO - DAG(s) 'test_car_3' retrieved from /opt/airflow/dags/test_car_3.py
+[2025-05-19T20:00:34.692+0000] {logging_mixin.py:190} INFO - [2025-05-19T20:00:34.691+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-19T20:00:34.729+0000] {logging_mixin.py:190} INFO - [2025-05-19T20:00:34.728+0000] {dag.py:4180} INFO - Setting next_dagrun for test_car_3 to 2025-05-17 22:55:00+00:00, run_after=2025-05-19 22:55:00+00:00
+[2025-05-19T20:00:34.757+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car_3.py took 0.923 seconds
+[2025-05-19T20:01:05.753+0000] {processor.py:186} INFO - Started process (PID=1722) to work on /opt/airflow/dags/test_car_3.py
+[2025-05-19T20:01:05.755+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car_3.py for tasks to queue
+[2025-05-19T20:01:05.763+0000] {logging_mixin.py:190} INFO - [2025-05-19T20:01:05.761+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car_3.py
+[2025-05-19T20:01:08.035+0000] {processor.py:925} INFO - DAG(s) 'test_car_3' retrieved from /opt/airflow/dags/test_car_3.py
+[2025-05-19T20:01:08.085+0000] {logging_mixin.py:190} INFO - [2025-05-19T20:01:08.083+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-19T20:01:08.237+0000] {logging_mixin.py:190} INFO - [2025-05-19T20:01:08.236+0000] {dag.py:4180} INFO - Setting next_dagrun for test_car_3 to 2025-05-17 22:55:00+00:00, run_after=2025-05-19 22:55:00+00:00
+[2025-05-19T20:01:08.294+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car_3.py took 2.558 seconds
+[2025-05-19T20:01:39.817+0000] {processor.py:186} INFO - Started process (PID=1736) to work on /opt/airflow/dags/test_car_3.py
+[2025-05-19T20:01:39.819+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car_3.py for tasks to queue
+[2025-05-19T20:01:39.836+0000] {logging_mixin.py:190} INFO - [2025-05-19T20:01:39.835+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car_3.py
+[2025-05-19T20:01:42.665+0000] {processor.py:925} INFO - DAG(s) 'test_car_3' retrieved from /opt/airflow/dags/test_car_3.py
+[2025-05-19T20:01:43.094+0000] {logging_mixin.py:190} INFO - [2025-05-19T20:01:43.091+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-19T20:01:43.194+0000] {logging_mixin.py:190} INFO - [2025-05-19T20:01:43.193+0000] {dag.py:4180} INFO - Setting next_dagrun for test_car_3 to 2025-05-19 00:00:00+00:00, run_after=2025-05-20 00:00:00+00:00
+[2025-05-19T20:01:43.373+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car_3.py took 3.592 seconds
+[2025-05-19T20:02:01.581+0000] {processor.py:186} INFO - Started process (PID=1744) to work on /opt/airflow/dags/test_car_3.py
+[2025-05-19T20:02:01.583+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car_3.py for tasks to queue
+[2025-05-19T20:02:01.589+0000] {logging_mixin.py:190} INFO - [2025-05-19T20:02:01.588+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car_3.py
+[2025-05-19T20:02:03.166+0000] {processor.py:925} INFO - DAG(s) 'test_car_3' retrieved from /opt/airflow/dags/test_car_3.py
+[2025-05-19T20:02:03.187+0000] {logging_mixin.py:190} INFO - [2025-05-19T20:02:03.185+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-19T20:02:03.228+0000] {logging_mixin.py:190} INFO - [2025-05-19T20:02:03.227+0000] {dag.py:4180} INFO - Setting next_dagrun for test_car_3 to 2025-05-19 00:00:00+00:00, run_after=2025-05-20 00:00:00+00:00
+[2025-05-19T20:02:03.260+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car_3.py took 1.693 seconds
+[2025-05-19T20:02:33.792+0000] {processor.py:186} INFO - Started process (PID=1758) to work on /opt/airflow/dags/test_car_3.py
+[2025-05-19T20:02:33.793+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car_3.py for tasks to queue
+[2025-05-19T20:02:33.798+0000] {logging_mixin.py:190} INFO - [2025-05-19T20:02:33.797+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car_3.py
+[2025-05-19T20:02:34.567+0000] {processor.py:925} INFO - DAG(s) 'test_car_3' retrieved from /opt/airflow/dags/test_car_3.py
+[2025-05-19T20:02:34.599+0000] {logging_mixin.py:190} INFO - [2025-05-19T20:02:34.598+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-19T20:02:34.630+0000] {logging_mixin.py:190} INFO - [2025-05-19T20:02:34.629+0000] {dag.py:4180} INFO - Setting next_dagrun for test_car_3 to 2025-05-19 00:00:00+00:00, run_after=2025-05-20 00:00:00+00:00
+[2025-05-19T20:02:34.656+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car_3.py took 0.885 seconds
+[2025-05-19T20:03:05.172+0000] {processor.py:186} INFO - Started process (PID=1778) to work on /opt/airflow/dags/test_car_3.py
+[2025-05-19T20:03:05.175+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car_3.py for tasks to queue
+[2025-05-19T20:03:05.182+0000] {logging_mixin.py:190} INFO - [2025-05-19T20:03:05.181+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car_3.py
+[2025-05-19T20:03:06.769+0000] {processor.py:925} INFO - DAG(s) 'test_car_3' retrieved from /opt/airflow/dags/test_car_3.py
+[2025-05-19T20:03:06.817+0000] {logging_mixin.py:190} INFO - [2025-05-19T20:03:06.816+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-19T20:03:06.903+0000] {logging_mixin.py:190} INFO - [2025-05-19T20:03:06.902+0000] {dag.py:4180} INFO - Setting next_dagrun for test_car_3 to 2025-05-19 00:00:00+00:00, run_after=2025-05-20 00:00:00+00:00
+[2025-05-19T20:03:06.985+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car_3.py took 1.826 seconds

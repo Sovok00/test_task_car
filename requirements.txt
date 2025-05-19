@@ -1,0 +1,7 @@
+aiogram==3.18.0
+psycopg2-binary==2.9.10
+asyncio==3.4.3
+pandas==2.2.3
+requests==2.32.3
+boto3==1.38.14
+psycopg2-binary==2.9.10

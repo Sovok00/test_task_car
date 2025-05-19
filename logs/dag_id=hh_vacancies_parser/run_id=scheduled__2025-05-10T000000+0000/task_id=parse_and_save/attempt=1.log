@@ -1,0 +1,296 @@
+[2025-05-13T18:20:33.327+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-05-13T18:20:33.425+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: hh_vacancies_parser.parse_and_save scheduled__2025-05-10T00:00:00+00:00 [queued]>
+[2025-05-13T18:20:33.510+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: hh_vacancies_parser.parse_and_save scheduled__2025-05-10T00:00:00+00:00 [queued]>
+[2025-05-13T18:20:33.514+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2025-05-13T18:20:33.630+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): parse_and_save> on 2025-05-10 00:00:00+00:00
+[2025-05-13T18:20:33.685+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'hh_vacancies_parser', 'parse_and_save', 'scheduled__2025-05-10T00:00:00+00:00', '--job-id', '34', '--raw', '--subdir', 'DAGS_FOLDER/pars_hh_***.py', '--cfg-path', '/tmp/tmpe3l3579e']
+[2025-05-13T18:20:33.705+0000] {standard_task_runner.py:105} INFO - Job 34: Subtask parse_and_save
+[2025-05-13T18:20:33.710+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=84) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-05-13T18:20:33.723+0000] {standard_task_runner.py:72} INFO - Started process 98 to run task
+[2025-05-13T18:20:34.152+0000] {task_command.py:467} INFO - Running <TaskInstance: hh_vacancies_parser.parse_and_save scheduled__2025-05-10T00:00:00+00:00 [running]> on host 4110aaea58fc
+[2025-05-13T18:20:35.607+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='hh_vacancies_parser' AIRFLOW_CTX_TASK_ID='parse_and_save' AIRFLOW_CTX_EXECUTION_DATE='2025-05-10T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-05-10T00:00:00+00:00'
+[2025-05-13T18:20:35.616+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-05-13T18:20:35.620+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-05-13T18:20:35.622+0000] {logging_mixin.py:190} INFO - Current task name:parse_and_save state:running start_date:2025-05-13 18:20:33.434246+00:00
+[2025-05-13T18:20:35.633+0000] {logging_mixin.py:190} INFO - Dag name:hh_vacancies_parser and current dag run status:running
+[2025-05-13T18:20:35.636+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-05-13T18:20:35.989+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-05-13T18:20:36.053+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-05-13T18:20:36.059+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=hh_vacancies_parser, task_id=parse_and_save, run_id=scheduled__2025-05-10T00:00:00+00:00, execution_date=20250510T000000, start_date=20250513T182033, end_date=20250513T182036
+[2025-05-13T18:20:36.137+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-05-13T18:20:36.151+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-05-13T18:20:36.154+0000] {logging_mixin.py:190} INFO - Dag name:hh_vacancies_parser queued_at:2025-05-13 18:19:20.213265+00:00
+[2025-05-13T18:20:36.156+0000] {logging_mixin.py:190} INFO - Task hostname:4110aaea58fc operator:PythonOperator
+[2025-05-13T18:20:36.242+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-05-13T18:20:36.392+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-05-13T18:20:36.415+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2025-05-14T17:19:33.503+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-05-14T17:19:33.554+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: hh_vacancies_parser.parse_and_save scheduled__2025-05-10T00:00:00+00:00 [queued]>
+[2025-05-14T17:19:33.599+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: hh_vacancies_parser.parse_and_save scheduled__2025-05-10T00:00:00+00:00 [queued]>
+[2025-05-14T17:19:33.602+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2025-05-14T17:19:33.708+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): parse_and_save> on 2025-05-10 00:00:00+00:00
+[2025-05-14T17:19:33.723+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=82) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-05-14T17:19:33.728+0000] {standard_task_runner.py:72} INFO - Started process 84 to run task
+[2025-05-14T17:19:33.747+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'hh_vacancies_parser', 'parse_and_save', 'scheduled__2025-05-10T00:00:00+00:00', '--job-id', '3', '--raw', '--subdir', 'DAGS_FOLDER/pars_hh_***.py', '--cfg-path', '/tmp/tmpsvkac3ri']
+[2025-05-14T17:19:33.750+0000] {standard_task_runner.py:105} INFO - Job 3: Subtask parse_and_save
+[2025-05-14T17:19:33.889+0000] {task_command.py:467} INFO - Running <TaskInstance: hh_vacancies_parser.parse_and_save scheduled__2025-05-10T00:00:00+00:00 [running]> on host 09f3a72e6508
+[2025-05-14T17:19:34.556+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='hh_vacancies_parser' AIRFLOW_CTX_TASK_ID='parse_and_save' AIRFLOW_CTX_EXECUTION_DATE='2025-05-10T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-05-10T00:00:00+00:00'
+[2025-05-14T17:19:34.573+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-05-14T17:19:35.234+0000] {taskinstance.py:3311} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 422, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/pars_hh_airflow.py", line 31, in save_to_db
+    conn = psycopg2.connect(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: connection to server at "postgres" (172.18.0.3), port 5432 failed: FATAL:  database "news_db" does not exist
+
+[2025-05-14T17:19:35.299+0000] {taskinstance.py:1225} INFO - Marking task as UP_FOR_RETRY. dag_id=hh_vacancies_parser, task_id=parse_and_save, run_id=scheduled__2025-05-10T00:00:00+00:00, execution_date=20250510T000000, start_date=20250514T171933, end_date=20250514T171935
+[2025-05-14T17:19:35.392+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-05-14T17:19:35.400+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 3 for task parse_and_save (connection to server at "postgres" (172.18.0.3), port 5432 failed: FATAL:  database "news_db" does not exist
+; 84)
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3005, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3159, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3183, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 422, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/pars_hh_airflow.py", line 31, in save_to_db
+    conn = psycopg2.connect(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: connection to server at "postgres" (172.18.0.3), port 5432 failed: FATAL:  database "news_db" does not exist
+
+[2025-05-14T17:19:35.491+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2025-05-14T17:19:35.716+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-05-14T17:19:35.733+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2025-05-14T19:04:22.645+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-05-14T19:04:22.780+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: hh_vacancies_parser.parse_and_save scheduled__2025-05-10T00:00:00+00:00 [queued]>
+[2025-05-14T19:04:22.842+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: hh_vacancies_parser.parse_and_save scheduled__2025-05-10T00:00:00+00:00 [queued]>
+[2025-05-14T19:04:22.843+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2025-05-14T19:04:22.910+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): parse_and_save> on 2025-05-10 00:00:00+00:00
+[2025-05-14T19:04:22.927+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=125) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-05-14T19:04:22.930+0000] {standard_task_runner.py:72} INFO - Started process 129 to run task
+[2025-05-14T19:04:22.945+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'hh_vacancies_parser', 'parse_and_save', 'scheduled__2025-05-10T00:00:00+00:00', '--job-id', '3', '--raw', '--subdir', 'DAGS_FOLDER/pars_hh_***.py', '--cfg-path', '/tmp/tmp25ckle48']
+[2025-05-14T19:04:22.955+0000] {standard_task_runner.py:105} INFO - Job 3: Subtask parse_and_save
+[2025-05-14T19:04:23.466+0000] {task_command.py:467} INFO - Running <TaskInstance: hh_vacancies_parser.parse_and_save scheduled__2025-05-10T00:00:00+00:00 [running]> on host 64f602921f1d
+[2025-05-14T19:04:24.075+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='hh_vacancies_parser' AIRFLOW_CTX_TASK_ID='parse_and_save' AIRFLOW_CTX_EXECUTION_DATE='2025-05-10T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-05-10T00:00:00+00:00'
+[2025-05-14T19:04:24.082+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-05-14T19:04:24.571+0000] {taskinstance.py:3311} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 422, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/pars_hh_airflow.py", line 31, in save_to_db
+    conn = psycopg2.connect(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: connection to server at "postgres" (172.18.0.2), port 5432 failed: FATAL:  database "news_db" does not exist
+
+[2025-05-14T19:04:24.631+0000] {taskinstance.py:1225} INFO - Marking task as UP_FOR_RETRY. dag_id=hh_vacancies_parser, task_id=parse_and_save, run_id=scheduled__2025-05-10T00:00:00+00:00, execution_date=20250510T000000, start_date=20250514T190422, end_date=20250514T190424
+[2025-05-14T19:04:24.723+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-05-14T19:04:24.736+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 3 for task parse_and_save (connection to server at "postgres" (172.18.0.2), port 5432 failed: FATAL:  database "news_db" does not exist
+; 129)
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3005, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3159, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3183, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 422, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/pars_hh_airflow.py", line 31, in save_to_db
+    conn = psycopg2.connect(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: connection to server at "postgres" (172.18.0.2), port 5432 failed: FATAL:  database "news_db" does not exist
+
+[2025-05-14T19:04:24.781+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2025-05-14T19:04:24.897+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-05-14T19:04:24.906+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2025-05-14T19:34:27.894+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-05-14T19:34:27.923+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: hh_vacancies_parser.parse_and_save scheduled__2025-05-10T00:00:00+00:00 [queued]>
+[2025-05-14T19:34:27.938+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: hh_vacancies_parser.parse_and_save scheduled__2025-05-10T00:00:00+00:00 [queued]>
+[2025-05-14T19:34:27.939+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2025-05-14T19:34:27.957+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): parse_and_save> on 2025-05-10 00:00:00+00:00
+[2025-05-14T19:34:27.969+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'hh_vacancies_parser', 'parse_and_save', 'scheduled__2025-05-10T00:00:00+00:00', '--job-id', '3', '--raw', '--subdir', 'DAGS_FOLDER/pars_hh_***.py', '--cfg-path', '/tmp/tmp828x0ctl']
+[2025-05-14T19:34:27.967+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=234) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-05-14T19:34:27.971+0000] {standard_task_runner.py:105} INFO - Job 3: Subtask parse_and_save
+[2025-05-14T19:34:27.971+0000] {standard_task_runner.py:72} INFO - Started process 235 to run task
+[2025-05-14T19:34:28.056+0000] {task_command.py:467} INFO - Running <TaskInstance: hh_vacancies_parser.parse_and_save scheduled__2025-05-10T00:00:00+00:00 [running]> on host dbea559a3595
+[2025-05-14T19:34:28.180+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='hh_vacancies_parser' AIRFLOW_CTX_TASK_ID='parse_and_save' AIRFLOW_CTX_EXECUTION_DATE='2025-05-10T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-05-10T00:00:00+00:00'
+[2025-05-14T19:34:28.182+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-05-14T19:34:28.550+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-05-14T19:34:28.572+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-05-14T19:34:28.584+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=hh_vacancies_parser, task_id=parse_and_save, run_id=scheduled__2025-05-10T00:00:00+00:00, execution_date=20250510T000000, start_date=20250514T193427, end_date=20250514T193428
+[2025-05-14T19:34:28.672+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-05-14T19:34:28.708+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-05-14T19:34:28.712+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2025-05-14T20:28:56.158+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-05-14T20:28:56.195+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: hh_vacancies_parser.parse_and_save scheduled__2025-05-10T00:00:00+00:00 [queued]>
+[2025-05-14T20:28:56.225+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: hh_vacancies_parser.parse_and_save scheduled__2025-05-10T00:00:00+00:00 [queued]>
+[2025-05-14T20:28:56.227+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2025-05-14T20:28:56.264+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): parse_and_save> on 2025-05-10 00:00:00+00:00
+[2025-05-14T20:28:56.282+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=319) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-05-14T20:28:56.286+0000] {standard_task_runner.py:72} INFO - Started process 323 to run task
+[2025-05-14T20:28:56.289+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'hh_vacancies_parser', 'parse_and_save', 'scheduled__2025-05-10T00:00:00+00:00', '--job-id', '10', '--raw', '--subdir', 'DAGS_FOLDER/pars_hh_***.py', '--cfg-path', '/tmp/tmp4i6uhxy6']
+[2025-05-14T20:28:56.292+0000] {standard_task_runner.py:105} INFO - Job 10: Subtask parse_and_save
+[2025-05-14T20:28:56.403+0000] {task_command.py:467} INFO - Running <TaskInstance: hh_vacancies_parser.parse_and_save scheduled__2025-05-10T00:00:00+00:00 [running]> on host 7587784ce09e
+[2025-05-14T20:28:56.602+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='hh_vacancies_parser' AIRFLOW_CTX_TASK_ID='parse_and_save' AIRFLOW_CTX_EXECUTION_DATE='2025-05-10T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-05-10T00:00:00+00:00'
+[2025-05-14T20:28:56.604+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-05-14T20:28:56.935+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-05-14T20:28:56.955+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-05-14T20:28:56.956+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=hh_vacancies_parser, task_id=parse_and_save, run_id=scheduled__2025-05-10T00:00:00+00:00, execution_date=20250510T000000, start_date=20250514T202856, end_date=20250514T202856
+[2025-05-14T20:28:56.989+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-05-14T20:28:57.020+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-05-14T20:28:57.023+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

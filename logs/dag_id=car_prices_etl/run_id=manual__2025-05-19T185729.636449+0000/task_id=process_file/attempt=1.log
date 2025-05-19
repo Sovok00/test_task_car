@@ -1,0 +1,35 @@
+[2025-05-19T19:02:35.964+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-05-19T19:02:35.994+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: car_prices_etl.process_file manual__2025-05-19T18:57:29.636449+00:00 [queued]>
+[2025-05-19T19:02:36.006+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: car_prices_etl.process_file manual__2025-05-19T18:57:29.636449+00:00 [queued]>
+[2025-05-19T19:02:36.008+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2025-05-19T19:02:36.037+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): process_file> on 2025-05-19 18:57:29.636449+00:00
+[2025-05-19T19:02:36.053+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=172) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-05-19T19:02:36.056+0000] {standard_task_runner.py:72} INFO - Started process 174 to run task
+[2025-05-19T19:02:36.056+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'car_prices_etl', 'process_file', 'manual__2025-05-19T18:57:29.636449+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/test_car_2.py', '--cfg-path', '/tmp/tmpyrdmbtyw']
+[2025-05-19T19:02:36.060+0000] {standard_task_runner.py:105} INFO - Job 5: Subtask process_file
+[2025-05-19T19:02:36.133+0000] {task_command.py:467} INFO - Running <TaskInstance: car_prices_etl.process_file manual__2025-05-19T18:57:29.636449+00:00 [running]> on host 21ce6642f26a
+[2025-05-19T19:02:36.287+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='car_prices_etl' AIRFLOW_CTX_TASK_ID='process_file' AIRFLOW_CTX_EXECUTION_DATE='2025-05-19T18:57:29.636449+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-05-19T18:57:29.636449+00:00'
+[2025-05-19T19:02:36.290+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-05-19T19:02:36.312+0000] {test_car_2.py:74} INFO - >>> [START] process_file
+[2025-05-19T19:02:36.313+0000] {test_car_2.py:77} INFO - Execution date: 2025-05-19 18:57:29.636449+00:00
+[2025-05-19T19:02:36.476+0000] {test_car_2.py:81} INFO - Currency rate: 80.7689
+[2025-05-19T19:02:36.502+0000] {base.py:84} INFO - Retrieving connection 'minio_conn'
+[2025-05-19T19:02:36.504+0000] {connection_wrapper.py:328} INFO - AWS Connection (conn_id='minio_conn', conn_type='aws') credentials retrieved from extra.
+[2025-05-19T19:02:37.122+0000] {test_car_2.py:113} INFO - Successfully read with utf-16
+[2025-05-19T19:02:37.180+0000] {test_car_2.py:114} INFO - Data sample:
+    brand   model  ...  file_actual_date                   processing_date
+0  Toyota   Camry  ...        2025-05-18  2025-05-19T18:57:29.636449+00:00
+1   Honda  Accord  ...        2025-05-18  2025-05-19T18:57:29.636449+00:00
+2     BMW      X5  ...        2025-05-18  2025-05-19T18:57:29.636449+00:00
+3    Lada   Vesta  ...        2025-05-18  2025-05-19T18:57:29.636449+00:00
+4    Audi      A6  ...        2025-05-18  2025-05-19T18:57:29.636449+00:00
+
+[5 rows x 8 columns]
+[2025-05-19T19:02:37.186+0000] {python.py:240} INFO - Done. Returned value was: [{'brand': 'Toyota', 'model': 'Camry', 'engine_volume': 2.5, 'manufacture_year': 2020, 'price_foreign': 25000, 'price_rub': 2019222.5, 'file_actual_date': datetime.date(2025, 5, 18), 'processing_date': '2025-05-19T18:57:29.636449+00:00'}, {'brand': 'Honda', 'model': 'Accord', 'engine_volume': 1.5, 'manufacture_year': 2021, 'price_foreign': 22000, 'price_rub': 1776915.8, 'file_actual_date': datetime.date(2025, 5, 18), 'processing_date': '2025-05-19T18:57:29.636449+00:00'}, {'brand': 'BMW', 'model': 'X5', 'engine_volume': 3.0, 'manufacture_year': 2019, 'price_foreign': 45000, 'price_rub': 3634600.5, 'file_actual_date': datetime.date(2025, 5, 18), 'processing_date': '2025-05-19T18:57:29.636449+00:00'}, {'brand': 'Lada', 'model': 'Vesta', 'engine_volume': 2.0, 'manufacture_year': 2022, 'price_foreign': 40000, 'price_rub': 3230756.0, 'file_actual_date': datetime.date(2025, 5, 18), 'processing_date': '2025-05-19T18:57:29.636449+00:00'}, {'brand': 'Audi', 'model': 'A6', 'engine_volume': 2.0, 'manufacture_year': 2021, 'price_foreign': 38000, 'price_rub': 3069218.2, 'file_actual_date': datetime.date(2025, 5, 18), 'processing_date': '2025-05-19T18:57:29.636449+00:00'}, {'brand': 'Kia', 'model': 'Optima', 'engine_volume': 2.4, 'manufacture_year': 2020, 'price_foreign': 18000, 'price_rub': 1453840.2, 'file_actual_date': datetime.date(2025, 5, 18), 'processing_date': '2025-05-19T18:57:29.636449+00:00'}, {'brand': 'Hyundai', 'model': 'Solaris', 'engine_volume': 1.6, 'manufacture_year': 2021, 'price_foreign': 15000, 'price_rub': 1211533.5, 'file_actual_date': datetime.date(2025, 5, 18), 'processing_date': '2025-05-19T18:57:29.636449+00:00'}, {'brand': 'Lada', 'model': 'VAZ2106', 'engine_volume': 2.0, 'manufacture_year': 2022, 'price_foreign': 30000, 'price_rub': 2423067.0, 'file_actual_date': datetime.date(2025, 5, 18), 'processing_date': '2025-05-19T18:57:29.636449+00:00'}, {'brand': 'Lexus', 'model': 'RX', 'engine_volume': 3.5, 'manufacture_year': 2021, 'price_foreign': 50000, 'price_rub': 4038445.0, 'file_actual_date': datetime.date(2025, 5, 18), 'processing_date': '2025-05-19T18:57:29.636449+00:00'}, {'brand': 'Ford', 'model': 'Focus', 'engine_volume': 1.5, 'manufacture_year': 2020, 'price_foreign': 16000, 'price_rub': 1292302.4000000001, 'file_actual_date': datetime.date(2025, 5, 18), 'processing_date': '2025-05-19T18:57:29.636449+00:00'}]
+[2025-05-19T19:02:37.253+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-05-19T19:02:37.254+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=car_prices_etl, task_id=process_file, run_id=manual__2025-05-19T18:57:29.636449+00:00, execution_date=20250519T185729, start_date=20250519T190235, end_date=20250519T190237
+[2025-05-19T19:02:37.323+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-05-19T19:02:37.355+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-05-19T19:02:37.360+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

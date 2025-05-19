@@ -1,0 +1,358 @@
+[2025-05-13T19:30:11.999+0000] {processor.py:186} INFO - Started process (PID=78) to work on /opt/airflow/dags/test_car.py
+[2025-05-13T19:30:12.025+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car.py for tasks to queue
+[2025-05-13T19:30:12.059+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:30:12.056+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car.py
+[2025-05-13T19:30:12.759+0000] {processor.py:925} INFO - DAG(s) 's3_to_greenplum' retrieved from /opt/airflow/dags/test_car.py
+[2025-05-13T19:30:15.659+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:30:15.655+0000] {override.py:1911} INFO - Created Permission View: can read on DAG:s3_to_greenplum
+[2025-05-13T19:30:15.860+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:30:15.860+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG:s3_to_greenplum
+[2025-05-13T19:30:16.037+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:30:16.036+0000] {override.py:1911} INFO - Created Permission View: can edit on DAG:s3_to_greenplum
+[2025-05-13T19:30:16.171+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:30:16.171+0000] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:s3_to_greenplum
+[2025-05-13T19:30:16.255+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:30:16.253+0000] {override.py:1911} INFO - Created Permission View: can create on DAG Run:s3_to_greenplum
+[2025-05-13T19:30:16.348+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:30:16.347+0000] {override.py:1911} INFO - Created Permission View: can read on DAG Run:s3_to_greenplum
+[2025-05-13T19:30:16.491+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:30:16.463+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:s3_to_greenplum
+[2025-05-13T19:30:16.495+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:30:16.494+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-13T19:30:16.836+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:30:16.835+0000] {dag.py:3262} INFO - Creating ORM DAG for s3_to_greenplum
+[2025-05-13T19:30:16.964+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:30:16.963+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_greenplum to 2025-05-12 00:00:00+00:00, run_after=2025-05-13 00:00:00+00:00
+[2025-05-13T19:30:17.227+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car.py took 5.385 seconds
+[2025-05-13T19:30:54.971+0000] {processor.py:186} INFO - Started process (PID=150) to work on /opt/airflow/dags/test_car.py
+[2025-05-13T19:30:54.979+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car.py for tasks to queue
+[2025-05-13T19:30:54.996+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:30:54.993+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car.py
+[2025-05-13T19:30:55.132+0000] {processor.py:925} INFO - DAG(s) 's3_to_greenplum' retrieved from /opt/airflow/dags/test_car.py
+[2025-05-13T19:30:55.201+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:30:55.200+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-13T19:30:55.539+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:30:55.538+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_greenplum to 2025-05-12 00:00:00+00:00, run_after=2025-05-13 00:00:00+00:00
+[2025-05-13T19:30:55.797+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car.py took 0.885 seconds
+[2025-05-13T19:31:29.031+0000] {processor.py:186} INFO - Started process (PID=205) to work on /opt/airflow/dags/test_car.py
+[2025-05-13T19:31:29.050+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car.py for tasks to queue
+[2025-05-13T19:31:29.055+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:31:29.054+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car.py
+[2025-05-13T19:31:29.156+0000] {processor.py:925} INFO - DAG(s) 's3_to_greenplum' retrieved from /opt/airflow/dags/test_car.py
+[2025-05-13T19:31:29.302+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:31:29.301+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-13T19:31:29.439+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:31:29.437+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_greenplum to 2025-05-12 00:00:00+00:00, run_after=2025-05-13 00:00:00+00:00
+[2025-05-13T19:31:29.620+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car.py took 0.629 seconds
+[2025-05-13T19:32:08.964+0000] {processor.py:186} INFO - Started process (PID=268) to work on /opt/airflow/dags/test_car.py
+[2025-05-13T19:32:08.981+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car.py for tasks to queue
+[2025-05-13T19:32:09.042+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:32:09.041+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car.py
+[2025-05-13T19:32:09.165+0000] {processor.py:925} INFO - DAG(s) 's3_to_greenplum' retrieved from /opt/airflow/dags/test_car.py
+[2025-05-13T19:32:09.248+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:32:09.247+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-13T19:32:09.539+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:32:09.538+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_greenplum to 2025-05-12 00:00:00+00:00, run_after=2025-05-13 00:00:00+00:00
+[2025-05-13T19:32:09.606+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car.py took 0.738 seconds
+[2025-05-13T19:32:39.954+0000] {processor.py:186} INFO - Started process (PID=334) to work on /opt/airflow/dags/test_car.py
+[2025-05-13T19:32:39.956+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car.py for tasks to queue
+[2025-05-13T19:32:39.962+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:32:39.961+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car.py
+[2025-05-13T19:32:40.014+0000] {processor.py:925} INFO - DAG(s) 's3_to_greenplum' retrieved from /opt/airflow/dags/test_car.py
+[2025-05-13T19:32:40.091+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:32:40.088+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-13T19:32:40.178+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:32:40.177+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_greenplum to 2025-05-12 00:00:00+00:00, run_after=2025-05-13 00:00:00+00:00
+[2025-05-13T19:32:40.331+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car.py took 0.397 seconds
+[2025-05-13T19:35:32.658+0000] {processor.py:186} INFO - Started process (PID=80) to work on /opt/airflow/dags/test_car.py
+[2025-05-13T19:35:32.668+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car.py for tasks to queue
+[2025-05-13T19:35:32.694+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:35:32.693+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car.py
+[2025-05-13T19:35:32.835+0000] {processor.py:925} INFO - DAG(s) 's3_to_greenplum' retrieved from /opt/airflow/dags/test_car.py
+[2025-05-13T19:35:33.073+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:35:33.073+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-13T19:35:33.229+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:35:33.228+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_greenplum to 2025-05-12 00:00:00+00:00, run_after=2025-05-13 00:00:00+00:00
+[2025-05-13T19:35:33.325+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car.py took 0.682 seconds
+[2025-05-13T19:36:05.068+0000] {processor.py:186} INFO - Started process (PID=146) to work on /opt/airflow/dags/test_car.py
+[2025-05-13T19:36:05.073+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car.py for tasks to queue
+[2025-05-13T19:36:05.083+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:36:05.081+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car.py
+[2025-05-13T19:36:05.131+0000] {processor.py:925} INFO - DAG(s) 's3_to_greenplum' retrieved from /opt/airflow/dags/test_car.py
+[2025-05-13T19:36:05.216+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:36:05.215+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-13T19:36:05.286+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:36:05.286+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_greenplum to 2025-05-12 00:00:00+00:00, run_after=2025-05-13 00:00:00+00:00
+[2025-05-13T19:36:05.346+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car.py took 0.292 seconds
+[2025-05-13T19:36:35.713+0000] {processor.py:186} INFO - Started process (PID=212) to work on /opt/airflow/dags/test_car.py
+[2025-05-13T19:36:35.715+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car.py for tasks to queue
+[2025-05-13T19:36:35.719+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:36:35.718+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car.py
+[2025-05-13T19:36:35.758+0000] {processor.py:925} INFO - DAG(s) 's3_to_greenplum' retrieved from /opt/airflow/dags/test_car.py
+[2025-05-13T19:36:35.789+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:36:35.789+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-13T19:36:35.829+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:36:35.829+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_greenplum to 2025-05-12 00:00:00+00:00, run_after=2025-05-13 00:00:00+00:00
+[2025-05-13T19:36:35.861+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car.py took 0.157 seconds
+[2025-05-13T19:37:09.717+0000] {processor.py:186} INFO - Started process (PID=265) to work on /opt/airflow/dags/test_car.py
+[2025-05-13T19:37:09.719+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car.py for tasks to queue
+[2025-05-13T19:37:09.736+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:37:09.735+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car.py
+[2025-05-13T19:37:10.000+0000] {processor.py:925} INFO - DAG(s) 's3_to_greenplum' retrieved from /opt/airflow/dags/test_car.py
+[2025-05-13T19:37:10.447+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:37:10.447+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-13T19:37:10.696+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:37:10.695+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_greenplum to 2025-05-12 00:00:00+00:00, run_after=2025-05-13 00:00:00+00:00
+[2025-05-13T19:37:10.893+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car.py took 1.213 seconds
+[2025-05-13T19:37:41.372+0000] {processor.py:186} INFO - Started process (PID=332) to work on /opt/airflow/dags/test_car.py
+[2025-05-13T19:37:41.375+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car.py for tasks to queue
+[2025-05-13T19:37:41.380+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:37:41.379+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car.py
+[2025-05-13T19:37:41.427+0000] {processor.py:925} INFO - DAG(s) 's3_to_greenplum' retrieved from /opt/airflow/dags/test_car.py
+[2025-05-13T19:37:41.498+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:37:41.497+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-13T19:37:41.559+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:37:41.558+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_greenplum to 2025-05-12 00:00:00+00:00, run_after=2025-05-13 00:00:00+00:00
+[2025-05-13T19:37:41.607+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car.py took 0.250 seconds
+[2025-05-13T19:38:11.828+0000] {processor.py:186} INFO - Started process (PID=397) to work on /opt/airflow/dags/test_car.py
+[2025-05-13T19:38:11.832+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car.py for tasks to queue
+[2025-05-13T19:38:11.841+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:38:11.839+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car.py
+[2025-05-13T19:38:11.905+0000] {processor.py:925} INFO - DAG(s) 's3_to_greenplum' retrieved from /opt/airflow/dags/test_car.py
+[2025-05-13T19:38:11.969+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:38:11.968+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-13T19:38:12.125+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:38:12.125+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_greenplum to 2025-05-12 00:00:00+00:00, run_after=2025-05-13 00:00:00+00:00
+[2025-05-13T19:38:12.183+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car.py took 0.373 seconds
+[2025-05-13T19:38:42.427+0000] {processor.py:186} INFO - Started process (PID=462) to work on /opt/airflow/dags/test_car.py
+[2025-05-13T19:38:42.429+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car.py for tasks to queue
+[2025-05-13T19:38:42.433+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:38:42.433+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car.py
+[2025-05-13T19:38:42.465+0000] {processor.py:925} INFO - DAG(s) 's3_to_greenplum' retrieved from /opt/airflow/dags/test_car.py
+[2025-05-13T19:38:42.500+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:38:42.499+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-13T19:38:42.554+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:38:42.554+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_greenplum to 2025-05-12 00:00:00+00:00, run_after=2025-05-13 00:00:00+00:00
+[2025-05-13T19:38:42.626+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car.py took 0.212 seconds
+[2025-05-13T19:39:12.748+0000] {processor.py:186} INFO - Started process (PID=527) to work on /opt/airflow/dags/test_car.py
+[2025-05-13T19:39:12.749+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car.py for tasks to queue
+[2025-05-13T19:39:12.753+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:39:12.752+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car.py
+[2025-05-13T19:39:12.775+0000] {processor.py:925} INFO - DAG(s) 's3_to_greenplum' retrieved from /opt/airflow/dags/test_car.py
+[2025-05-13T19:39:12.802+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:39:12.801+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-13T19:39:12.836+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:39:12.836+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_greenplum to 2025-05-12 00:00:00+00:00, run_after=2025-05-13 00:00:00+00:00
+[2025-05-13T19:39:12.864+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car.py took 0.123 seconds
+[2025-05-13T19:39:43.012+0000] {processor.py:186} INFO - Started process (PID=591) to work on /opt/airflow/dags/test_car.py
+[2025-05-13T19:39:43.013+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car.py for tasks to queue
+[2025-05-13T19:39:43.018+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:39:43.017+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car.py
+[2025-05-13T19:39:43.058+0000] {processor.py:925} INFO - DAG(s) 's3_to_greenplum' retrieved from /opt/airflow/dags/test_car.py
+[2025-05-13T19:39:43.112+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:39:43.112+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-13T19:39:43.227+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:39:43.226+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_greenplum to 2025-05-12 00:00:00+00:00, run_after=2025-05-13 00:00:00+00:00
+[2025-05-13T19:39:43.316+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car.py took 0.314 seconds
+[2025-05-13T19:40:13.962+0000] {processor.py:186} INFO - Started process (PID=657) to work on /opt/airflow/dags/test_car.py
+[2025-05-13T19:40:13.966+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car.py for tasks to queue
+[2025-05-13T19:40:13.974+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:40:13.972+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car.py
+[2025-05-13T19:40:14.058+0000] {processor.py:925} INFO - DAG(s) 's3_to_greenplum' retrieved from /opt/airflow/dags/test_car.py
+[2025-05-13T19:40:14.125+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:40:14.124+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-13T19:40:14.216+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:40:14.215+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_greenplum to 2025-05-12 00:00:00+00:00, run_after=2025-05-13 00:00:00+00:00
+[2025-05-13T19:40:14.307+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car.py took 0.382 seconds
+[2025-05-13T19:40:44.539+0000] {processor.py:186} INFO - Started process (PID=722) to work on /opt/airflow/dags/test_car.py
+[2025-05-13T19:40:44.541+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car.py for tasks to queue
+[2025-05-13T19:40:44.545+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:40:44.545+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car.py
+[2025-05-13T19:40:44.573+0000] {processor.py:925} INFO - DAG(s) 's3_to_greenplum' retrieved from /opt/airflow/dags/test_car.py
+[2025-05-13T19:40:44.606+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:40:44.606+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-13T19:40:44.665+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:40:44.664+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_greenplum to 2025-05-13 00:00:00+00:00, run_after=2025-05-14 00:00:00+00:00
+[2025-05-13T19:40:44.728+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car.py took 0.200 seconds
+[2025-05-13T19:41:15.275+0000] {processor.py:186} INFO - Started process (PID=788) to work on /opt/airflow/dags/test_car.py
+[2025-05-13T19:41:15.278+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car.py for tasks to queue
+[2025-05-13T19:41:15.290+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:41:15.289+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car.py
+[2025-05-13T19:41:15.353+0000] {processor.py:925} INFO - DAG(s) 's3_to_greenplum' retrieved from /opt/airflow/dags/test_car.py
+[2025-05-13T19:41:15.416+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:41:15.414+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-13T19:41:15.523+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:41:15.523+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_greenplum to 2025-05-13 00:00:00+00:00, run_after=2025-05-14 00:00:00+00:00
+[2025-05-13T19:41:15.600+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car.py took 0.354 seconds
+[2025-05-13T19:41:46.261+0000] {processor.py:186} INFO - Started process (PID=852) to work on /opt/airflow/dags/test_car.py
+[2025-05-13T19:41:46.263+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car.py for tasks to queue
+[2025-05-13T19:41:46.269+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:41:46.268+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car.py
+[2025-05-13T19:41:46.356+0000] {processor.py:925} INFO - DAG(s) 's3_to_greenplum' retrieved from /opt/airflow/dags/test_car.py
+[2025-05-13T19:41:46.425+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:41:46.424+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-13T19:41:46.528+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:41:46.527+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_greenplum to 2025-05-13 00:00:00+00:00, run_after=2025-05-14 00:00:00+00:00
+[2025-05-13T19:41:46.602+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car.py took 0.358 seconds
+[2025-05-13T19:42:20.049+0000] {processor.py:186} INFO - Started process (PID=915) to work on /opt/airflow/dags/test_car.py
+[2025-05-13T19:42:20.051+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car.py for tasks to queue
+[2025-05-13T19:42:20.055+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:42:20.054+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car.py
+[2025-05-13T19:42:20.099+0000] {processor.py:925} INFO - DAG(s) 's3_to_greenplum' retrieved from /opt/airflow/dags/test_car.py
+[2025-05-13T19:42:20.166+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:42:20.166+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-13T19:42:20.241+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:42:20.240+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_greenplum to 2025-05-13 00:00:00+00:00, run_after=2025-05-14 00:00:00+00:00
+[2025-05-13T19:42:20.298+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car.py took 0.258 seconds
+[2025-05-13T19:42:50.582+0000] {processor.py:186} INFO - Started process (PID=980) to work on /opt/airflow/dags/test_car.py
+[2025-05-13T19:42:50.584+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car.py for tasks to queue
+[2025-05-13T19:42:50.591+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:42:50.590+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car.py
+[2025-05-13T19:42:50.643+0000] {processor.py:925} INFO - DAG(s) 's3_to_greenplum' retrieved from /opt/airflow/dags/test_car.py
+[2025-05-13T19:42:50.691+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:42:50.691+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-13T19:42:50.767+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:42:50.767+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_greenplum to 2025-05-13 00:00:00+00:00, run_after=2025-05-14 00:00:00+00:00
+[2025-05-13T19:42:50.846+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car.py took 0.280 seconds
+[2025-05-13T19:43:21.769+0000] {processor.py:186} INFO - Started process (PID=1044) to work on /opt/airflow/dags/test_car.py
+[2025-05-13T19:43:21.771+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car.py for tasks to queue
+[2025-05-13T19:43:21.775+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:43:21.774+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car.py
+[2025-05-13T19:43:21.825+0000] {processor.py:925} INFO - DAG(s) 's3_to_greenplum' retrieved from /opt/airflow/dags/test_car.py
+[2025-05-13T19:43:21.889+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:43:21.888+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-13T19:43:21.940+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:43:21.940+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_greenplum to 2025-05-13 00:00:00+00:00, run_after=2025-05-14 00:00:00+00:00
+[2025-05-13T19:43:21.984+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car.py took 0.227 seconds
+[2025-05-13T19:43:52.230+0000] {processor.py:186} INFO - Started process (PID=1103) to work on /opt/airflow/dags/test_car.py
+[2025-05-13T19:43:52.234+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car.py for tasks to queue
+[2025-05-13T19:43:52.241+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:43:52.240+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car.py
+[2025-05-13T19:43:52.292+0000] {processor.py:925} INFO - DAG(s) 's3_to_greenplum' retrieved from /opt/airflow/dags/test_car.py
+[2025-05-13T19:43:52.342+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:43:52.342+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-13T19:43:52.396+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:43:52.396+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_greenplum to 2025-05-13 00:00:00+00:00, run_after=2025-05-14 00:00:00+00:00
+[2025-05-13T19:43:52.454+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car.py took 0.249 seconds
+[2025-05-13T19:44:22.855+0000] {processor.py:186} INFO - Started process (PID=1165) to work on /opt/airflow/dags/test_car.py
+[2025-05-13T19:44:22.858+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car.py for tasks to queue
+[2025-05-13T19:44:22.873+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:44:22.872+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car.py
+[2025-05-13T19:44:22.923+0000] {processor.py:925} INFO - DAG(s) 's3_to_greenplum' retrieved from /opt/airflow/dags/test_car.py
+[2025-05-13T19:44:22.986+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:44:22.986+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-13T19:44:23.065+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:44:23.064+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_greenplum to 2025-05-13 00:00:00+00:00, run_after=2025-05-14 00:00:00+00:00
+[2025-05-13T19:44:23.126+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car.py took 0.290 seconds
+[2025-05-13T19:44:53.561+0000] {processor.py:186} INFO - Started process (PID=1231) to work on /opt/airflow/dags/test_car.py
+[2025-05-13T19:44:53.564+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car.py for tasks to queue
+[2025-05-13T19:44:53.572+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:44:53.572+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car.py
+[2025-05-13T19:44:53.633+0000] {processor.py:925} INFO - DAG(s) 's3_to_greenplum' retrieved from /opt/airflow/dags/test_car.py
+[2025-05-13T19:44:53.695+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:44:53.694+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-13T19:44:53.762+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:44:53.762+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_greenplum to 2025-05-13 00:00:00+00:00, run_after=2025-05-14 00:00:00+00:00
+[2025-05-13T19:44:53.817+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car.py took 0.277 seconds
+[2025-05-13T19:45:24.538+0000] {processor.py:186} INFO - Started process (PID=1298) to work on /opt/airflow/dags/test_car.py
+[2025-05-13T19:45:24.541+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car.py for tasks to queue
+[2025-05-13T19:45:24.547+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:45:24.546+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car.py
+[2025-05-13T19:45:24.584+0000] {processor.py:925} INFO - DAG(s) 's3_to_greenplum' retrieved from /opt/airflow/dags/test_car.py
+[2025-05-13T19:45:24.628+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:45:24.627+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-13T19:45:24.689+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:45:24.689+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_greenplum to 2025-05-13 00:00:00+00:00, run_after=2025-05-14 00:00:00+00:00
+[2025-05-13T19:45:24.749+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car.py took 0.221 seconds
+[2025-05-13T19:45:55.042+0000] {processor.py:186} INFO - Started process (PID=1363) to work on /opt/airflow/dags/test_car.py
+[2025-05-13T19:45:55.044+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car.py for tasks to queue
+[2025-05-13T19:45:55.050+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:45:55.050+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car.py
+[2025-05-13T19:45:55.117+0000] {processor.py:925} INFO - DAG(s) 's3_to_greenplum' retrieved from /opt/airflow/dags/test_car.py
+[2025-05-13T19:45:55.201+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:45:55.200+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-13T19:45:55.288+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:45:55.287+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_greenplum to 2025-05-13 00:00:00+00:00, run_after=2025-05-14 00:00:00+00:00
+[2025-05-13T19:45:55.338+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car.py took 0.307 seconds
+[2025-05-13T19:46:25.998+0000] {processor.py:186} INFO - Started process (PID=1429) to work on /opt/airflow/dags/test_car.py
+[2025-05-13T19:46:26.010+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car.py for tasks to queue
+[2025-05-13T19:46:26.025+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:46:26.024+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car.py
+[2025-05-13T19:46:26.123+0000] {processor.py:925} INFO - DAG(s) 's3_to_greenplum' retrieved from /opt/airflow/dags/test_car.py
+[2025-05-13T19:46:26.170+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:46:26.170+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-13T19:46:26.231+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:46:26.231+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_greenplum to 2025-05-13 00:00:00+00:00, run_after=2025-05-14 00:00:00+00:00
+[2025-05-13T19:46:26.275+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car.py took 0.301 seconds
+[2025-05-13T19:46:56.486+0000] {processor.py:186} INFO - Started process (PID=1495) to work on /opt/airflow/dags/test_car.py
+[2025-05-13T19:46:56.489+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car.py for tasks to queue
+[2025-05-13T19:46:56.499+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:46:56.498+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car.py
+[2025-05-13T19:46:56.565+0000] {processor.py:925} INFO - DAG(s) 's3_to_greenplum' retrieved from /opt/airflow/dags/test_car.py
+[2025-05-13T19:46:56.617+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:46:56.616+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-13T19:46:56.698+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:46:56.697+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_greenplum to 2025-05-13 00:00:00+00:00, run_after=2025-05-14 00:00:00+00:00
+[2025-05-13T19:46:56.785+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car.py took 0.317 seconds
+[2025-05-13T19:47:27.419+0000] {processor.py:186} INFO - Started process (PID=1561) to work on /opt/airflow/dags/test_car.py
+[2025-05-13T19:47:27.420+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car.py for tasks to queue
+[2025-05-13T19:47:27.424+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:47:27.423+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car.py
+[2025-05-13T19:47:27.455+0000] {processor.py:925} INFO - DAG(s) 's3_to_greenplum' retrieved from /opt/airflow/dags/test_car.py
+[2025-05-13T19:47:27.492+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:47:27.491+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-13T19:47:27.554+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:47:27.553+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_greenplum to 2025-05-13 00:00:00+00:00, run_after=2025-05-14 00:00:00+00:00
+[2025-05-13T19:47:27.602+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car.py took 0.192 seconds
+[2025-05-13T19:47:58.653+0000] {processor.py:186} INFO - Started process (PID=1628) to work on /opt/airflow/dags/test_car.py
+[2025-05-13T19:47:58.665+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car.py for tasks to queue
+[2025-05-13T19:47:58.676+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:47:58.674+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car.py
+[2025-05-13T19:47:58.730+0000] {processor.py:925} INFO - DAG(s) 's3_to_greenplum' retrieved from /opt/airflow/dags/test_car.py
+[2025-05-13T19:47:58.807+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:47:58.806+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-13T19:47:58.964+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:47:58.963+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_greenplum to 2025-05-13 00:00:00+00:00, run_after=2025-05-14 00:00:00+00:00
+[2025-05-13T19:47:59.077+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car.py took 0.435 seconds
+[2025-05-13T19:48:29.680+0000] {processor.py:186} INFO - Started process (PID=1694) to work on /opt/airflow/dags/test_car.py
+[2025-05-13T19:48:29.682+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car.py for tasks to queue
+[2025-05-13T19:48:29.689+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:48:29.687+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car.py
+[2025-05-13T19:48:29.741+0000] {processor.py:925} INFO - DAG(s) 's3_to_greenplum' retrieved from /opt/airflow/dags/test_car.py
+[2025-05-13T19:48:29.787+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:48:29.787+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-13T19:48:29.926+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:48:29.926+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_greenplum to 2025-05-13 00:00:00+00:00, run_after=2025-05-14 00:00:00+00:00
+[2025-05-13T19:48:30.010+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car.py took 0.346 seconds
+[2025-05-13T19:49:00.534+0000] {processor.py:186} INFO - Started process (PID=1760) to work on /opt/airflow/dags/test_car.py
+[2025-05-13T19:49:00.535+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car.py for tasks to queue
+[2025-05-13T19:49:00.539+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:49:00.538+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car.py
+[2025-05-13T19:49:00.573+0000] {processor.py:925} INFO - DAG(s) 's3_to_greenplum' retrieved from /opt/airflow/dags/test_car.py
+[2025-05-13T19:49:00.612+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:49:00.612+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-13T19:49:00.669+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:49:00.668+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_greenplum to 2025-05-13 00:00:00+00:00, run_after=2025-05-14 00:00:00+00:00
+[2025-05-13T19:49:00.708+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car.py took 0.191 seconds
+[2025-05-13T19:49:31.094+0000] {processor.py:186} INFO - Started process (PID=1827) to work on /opt/airflow/dags/test_car.py
+[2025-05-13T19:49:31.097+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car.py for tasks to queue
+[2025-05-13T19:49:31.105+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:49:31.105+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car.py
+[2025-05-13T19:49:31.179+0000] {processor.py:925} INFO - DAG(s) 's3_to_greenplum' retrieved from /opt/airflow/dags/test_car.py
+[2025-05-13T19:49:31.258+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:49:31.257+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-13T19:49:31.345+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:49:31.345+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_greenplum to 2025-05-13 00:00:00+00:00, run_after=2025-05-14 00:00:00+00:00
+[2025-05-13T19:49:31.415+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car.py took 0.338 seconds
+[2025-05-13T19:50:01.731+0000] {processor.py:186} INFO - Started process (PID=1892) to work on /opt/airflow/dags/test_car.py
+[2025-05-13T19:50:01.733+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car.py for tasks to queue
+[2025-05-13T19:50:01.737+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:50:01.737+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car.py
+[2025-05-13T19:50:01.773+0000] {processor.py:925} INFO - DAG(s) 's3_to_greenplum' retrieved from /opt/airflow/dags/test_car.py
+[2025-05-13T19:50:01.844+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:50:01.843+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-13T19:50:01.937+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:50:01.937+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_greenplum to 2025-05-13 00:00:00+00:00, run_after=2025-05-14 00:00:00+00:00
+[2025-05-13T19:50:02.001+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car.py took 0.281 seconds
+[2025-05-13T19:50:32.687+0000] {processor.py:186} INFO - Started process (PID=1958) to work on /opt/airflow/dags/test_car.py
+[2025-05-13T19:50:32.690+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car.py for tasks to queue
+[2025-05-13T19:50:32.697+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:50:32.695+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car.py
+[2025-05-13T19:50:32.758+0000] {processor.py:925} INFO - DAG(s) 's3_to_greenplum' retrieved from /opt/airflow/dags/test_car.py
+[2025-05-13T19:50:32.840+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:50:32.839+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-13T19:50:32.947+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:50:32.947+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_greenplum to 2025-05-13 00:00:00+00:00, run_after=2025-05-14 00:00:00+00:00
+[2025-05-13T19:50:33.047+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car.py took 0.376 seconds
+[2025-05-13T19:51:03.343+0000] {processor.py:186} INFO - Started process (PID=2023) to work on /opt/airflow/dags/test_car.py
+[2025-05-13T19:51:03.344+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car.py for tasks to queue
+[2025-05-13T19:51:03.350+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:51:03.349+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car.py
+[2025-05-13T19:51:03.388+0000] {processor.py:925} INFO - DAG(s) 's3_to_greenplum' retrieved from /opt/airflow/dags/test_car.py
+[2025-05-13T19:51:03.425+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:51:03.424+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-13T19:51:03.522+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:51:03.521+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_greenplum to 2025-05-13 00:00:00+00:00, run_after=2025-05-14 00:00:00+00:00
+[2025-05-13T19:51:03.608+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car.py took 0.278 seconds
+[2025-05-13T19:51:34.075+0000] {processor.py:186} INFO - Started process (PID=2089) to work on /opt/airflow/dags/test_car.py
+[2025-05-13T19:51:34.091+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car.py for tasks to queue
+[2025-05-13T19:51:34.105+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:51:34.104+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car.py
+[2025-05-13T19:51:34.177+0000] {processor.py:925} INFO - DAG(s) 's3_to_greenplum' retrieved from /opt/airflow/dags/test_car.py
+[2025-05-13T19:51:34.298+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:51:34.298+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-13T19:51:35.990+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:51:35.989+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_greenplum to 2025-05-13 00:00:00+00:00, run_after=2025-05-14 00:00:00+00:00
+[2025-05-13T19:51:36.434+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car.py took 2.415 seconds
+[2025-05-13T19:52:06.940+0000] {processor.py:186} INFO - Started process (PID=2161) to work on /opt/airflow/dags/test_car.py
+[2025-05-13T19:52:06.942+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car.py for tasks to queue
+[2025-05-13T19:52:06.946+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:52:06.945+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car.py
+[2025-05-13T19:52:06.971+0000] {processor.py:925} INFO - DAG(s) 's3_to_greenplum' retrieved from /opt/airflow/dags/test_car.py
+[2025-05-13T19:52:07.000+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:52:07.000+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-13T19:52:07.316+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:52:07.315+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_greenplum to 2025-05-13 00:00:00+00:00, run_after=2025-05-14 00:00:00+00:00
+[2025-05-13T19:52:07.345+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car.py took 0.416 seconds
+[2025-05-13T19:52:38.588+0000] {processor.py:186} INFO - Started process (PID=2226) to work on /opt/airflow/dags/test_car.py
+[2025-05-13T19:52:38.590+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car.py for tasks to queue
+[2025-05-13T19:52:38.597+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:52:38.595+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car.py
+[2025-05-13T19:52:38.642+0000] {processor.py:925} INFO - DAG(s) 's3_to_greenplum' retrieved from /opt/airflow/dags/test_car.py
+[2025-05-13T19:52:38.700+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:52:38.700+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-13T19:52:38.789+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:52:38.789+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_greenplum to 2025-05-13 00:00:00+00:00, run_after=2025-05-14 00:00:00+00:00
+[2025-05-13T19:52:38.856+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car.py took 0.279 seconds
+[2025-05-13T19:53:09.647+0000] {processor.py:186} INFO - Started process (PID=2291) to work on /opt/airflow/dags/test_car.py
+[2025-05-13T19:53:09.649+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car.py for tasks to queue
+[2025-05-13T19:53:09.657+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:53:09.656+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car.py
+[2025-05-13T19:53:09.738+0000] {processor.py:925} INFO - DAG(s) 's3_to_greenplum' retrieved from /opt/airflow/dags/test_car.py
+[2025-05-13T19:53:09.832+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:53:09.831+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-13T19:53:09.918+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:53:09.918+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_greenplum to 2025-05-13 00:00:00+00:00, run_after=2025-05-14 00:00:00+00:00
+[2025-05-13T19:53:09.999+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car.py took 0.398 seconds
+[2025-05-13T19:53:40.412+0000] {processor.py:186} INFO - Started process (PID=2355) to work on /opt/airflow/dags/test_car.py
+[2025-05-13T19:53:40.416+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car.py for tasks to queue
+[2025-05-13T19:53:40.422+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:53:40.421+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car.py
+[2025-05-13T19:53:40.499+0000] {processor.py:925} INFO - DAG(s) 's3_to_greenplum' retrieved from /opt/airflow/dags/test_car.py
+[2025-05-13T19:53:40.561+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:53:40.560+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-13T19:53:40.628+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:53:40.627+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_greenplum to 2025-05-13 00:00:00+00:00, run_after=2025-05-14 00:00:00+00:00
+[2025-05-13T19:53:40.681+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car.py took 0.293 seconds
+[2025-05-13T19:54:11.415+0000] {processor.py:186} INFO - Started process (PID=2421) to work on /opt/airflow/dags/test_car.py
+[2025-05-13T19:54:11.418+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car.py for tasks to queue
+[2025-05-13T19:54:11.427+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:54:11.426+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car.py
+[2025-05-13T19:54:11.499+0000] {processor.py:925} INFO - DAG(s) 's3_to_greenplum' retrieved from /opt/airflow/dags/test_car.py
+[2025-05-13T19:54:11.584+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:54:11.584+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-13T19:54:11.657+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:54:11.656+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_greenplum to 2025-05-13 00:00:00+00:00, run_after=2025-05-14 00:00:00+00:00
+[2025-05-13T19:54:11.703+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car.py took 0.328 seconds
+[2025-05-13T19:54:42.315+0000] {processor.py:186} INFO - Started process (PID=2488) to work on /opt/airflow/dags/test_car.py
+[2025-05-13T19:54:42.317+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car.py for tasks to queue
+[2025-05-13T19:54:42.326+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:54:42.321+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car.py
+[2025-05-13T19:54:42.363+0000] {processor.py:925} INFO - DAG(s) 's3_to_greenplum' retrieved from /opt/airflow/dags/test_car.py
+[2025-05-13T19:54:42.407+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:54:42.406+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-13T19:54:42.465+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:54:42.465+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_greenplum to 2025-05-13 00:00:00+00:00, run_after=2025-05-14 00:00:00+00:00
+[2025-05-13T19:54:42.513+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car.py took 0.209 seconds
+[2025-05-13T19:55:13.480+0000] {processor.py:186} INFO - Started process (PID=2555) to work on /opt/airflow/dags/test_car.py
+[2025-05-13T19:55:13.481+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car.py for tasks to queue
+[2025-05-13T19:55:13.486+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:55:13.485+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car.py
+[2025-05-13T19:55:13.511+0000] {processor.py:925} INFO - DAG(s) 's3_to_greenplum' retrieved from /opt/airflow/dags/test_car.py
+[2025-05-13T19:55:13.548+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:55:13.548+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-13T19:55:13.601+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:55:13.600+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_greenplum to 2025-05-13 00:00:00+00:00, run_after=2025-05-14 00:00:00+00:00
+[2025-05-13T19:55:13.639+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car.py took 0.167 seconds
+[2025-05-13T19:55:43.848+0000] {processor.py:186} INFO - Started process (PID=2615) to work on /opt/airflow/dags/test_car.py
+[2025-05-13T19:55:43.850+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car.py for tasks to queue
+[2025-05-13T19:55:43.854+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:55:43.853+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car.py
+[2025-05-13T19:55:43.882+0000] {processor.py:925} INFO - DAG(s) 's3_to_greenplum' retrieved from /opt/airflow/dags/test_car.py
+[2025-05-13T19:55:43.915+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:55:43.915+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-13T19:55:43.952+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:55:43.952+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_greenplum to 2025-05-13 00:00:00+00:00, run_after=2025-05-14 00:00:00+00:00
+[2025-05-13T19:55:43.990+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car.py took 0.152 seconds
+[2025-05-13T19:56:14.482+0000] {processor.py:186} INFO - Started process (PID=2681) to work on /opt/airflow/dags/test_car.py
+[2025-05-13T19:56:14.485+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car.py for tasks to queue
+[2025-05-13T19:56:14.490+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:56:14.489+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car.py
+[2025-05-13T19:56:14.540+0000] {processor.py:925} INFO - DAG(s) 's3_to_greenplum' retrieved from /opt/airflow/dags/test_car.py
+[2025-05-13T19:56:14.600+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:56:14.599+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-13T19:56:14.692+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:56:14.691+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_greenplum to 2025-05-13 00:00:00+00:00, run_after=2025-05-14 00:00:00+00:00
+[2025-05-13T19:56:14.746+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car.py took 0.277 seconds
+[2025-05-13T19:56:45.829+0000] {processor.py:186} INFO - Started process (PID=2749) to work on /opt/airflow/dags/test_car.py
+[2025-05-13T19:56:45.836+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car.py for tasks to queue
+[2025-05-13T19:56:45.854+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:56:45.853+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car.py
+[2025-05-13T19:56:46.001+0000] {processor.py:925} INFO - DAG(s) 's3_to_greenplum' retrieved from /opt/airflow/dags/test_car.py
+[2025-05-13T19:56:46.104+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:56:46.102+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-13T19:56:46.272+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:56:46.271+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_greenplum to 2025-05-13 00:00:00+00:00, run_after=2025-05-14 00:00:00+00:00
+[2025-05-13T19:56:46.371+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car.py took 0.556 seconds
+[2025-05-13T19:57:16.766+0000] {processor.py:186} INFO - Started process (PID=2814) to work on /opt/airflow/dags/test_car.py
+[2025-05-13T19:57:16.769+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car.py for tasks to queue
+[2025-05-13T19:57:16.779+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:57:16.774+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car.py
+[2025-05-13T19:57:16.823+0000] {processor.py:925} INFO - DAG(s) 's3_to_greenplum' retrieved from /opt/airflow/dags/test_car.py
+[2025-05-13T19:57:16.923+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:57:16.922+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-13T19:57:17.039+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:57:17.039+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_greenplum to 2025-05-13 00:00:00+00:00, run_after=2025-05-14 00:00:00+00:00
+[2025-05-13T19:57:17.081+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car.py took 0.326 seconds
+[2025-05-13T19:57:47.198+0000] {processor.py:186} INFO - Started process (PID=2880) to work on /opt/airflow/dags/test_car.py
+[2025-05-13T19:57:47.200+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car.py for tasks to queue
+[2025-05-13T19:57:47.205+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:57:47.204+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car.py
+[2025-05-13T19:57:47.229+0000] {processor.py:925} INFO - DAG(s) 's3_to_greenplum' retrieved from /opt/airflow/dags/test_car.py
+[2025-05-13T19:57:47.257+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:57:47.257+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-13T19:57:47.298+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:57:47.298+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_greenplum to 2025-05-13 00:00:00+00:00, run_after=2025-05-14 00:00:00+00:00
+[2025-05-13T19:57:47.333+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car.py took 0.142 seconds
+[2025-05-13T19:58:18.036+0000] {processor.py:186} INFO - Started process (PID=2946) to work on /opt/airflow/dags/test_car.py
+[2025-05-13T19:58:18.039+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test_car.py for tasks to queue
+[2025-05-13T19:58:18.045+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:58:18.044+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test_car.py
+[2025-05-13T19:58:18.114+0000] {processor.py:925} INFO - DAG(s) 's3_to_greenplum' retrieved from /opt/airflow/dags/test_car.py
+[2025-05-13T19:58:18.168+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:58:18.167+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-13T19:58:18.236+0000] {logging_mixin.py:190} INFO - [2025-05-13T19:58:18.236+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_greenplum to 2025-05-13 00:00:00+00:00, run_after=2025-05-14 00:00:00+00:00
+[2025-05-13T19:58:18.278+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test_car.py took 0.259 seconds
