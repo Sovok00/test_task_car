@@ -1,0 +1,182 @@
+[2025-05-21T17:20:17.584+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-05-21T17:20:17.621+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: test_car_5_tg_err.process_file scheduled__2025-05-20T00:00:00+00:00 [queued]>
+[2025-05-21T17:20:17.636+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: test_car_5_tg_err.process_file scheduled__2025-05-20T00:00:00+00:00 [queued]>
+[2025-05-21T17:20:17.637+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2025-05-21T17:20:17.662+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): process_file> on 2025-05-20 00:00:00+00:00
+[2025-05-21T17:20:17.675+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=345) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-05-21T17:20:17.678+0000] {standard_task_runner.py:72} INFO - Started process 347 to run task
+[2025-05-21T17:20:17.677+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'test_car_5_tg_err', 'process_file', 'scheduled__2025-05-20T00:00:00+00:00', '--job-id', '9', '--raw', '--subdir', 'DAGS_FOLDER/test_car_5 _tg_err.py', '--cfg-path', '/tmp/tmp_yuwm789']
+[2025-05-21T17:20:17.680+0000] {standard_task_runner.py:105} INFO - Job 9: Subtask process_file
+[2025-05-21T17:20:17.753+0000] {task_command.py:467} INFO - Running <TaskInstance: test_car_5_tg_err.process_file scheduled__2025-05-20T00:00:00+00:00 [running]> on host 0562d356b684
+[2025-05-21T17:20:17.939+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='test_car_5_tg_err' AIRFLOW_CTX_TASK_ID='process_file' AIRFLOW_CTX_EXECUTION_DATE='2025-05-20T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-05-20T00:00:00+00:00'
+[2025-05-21T17:20:17.945+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-05-21T17:20:17.978+0000] {test_car_5 _tg_err.py:165} INFO - >>> [START] process_file
+[2025-05-21T17:20:17.979+0000] {test_car_5 _tg_err.py:168} INFO - Execution date: 2025-05-20 00:00:00+00:00
+[2025-05-21T17:20:18.281+0000] {test_car_5 _tg_err.py:139} WARNING - Attempt 1 failed to get currency rate: HTTPSConnectionPool(host='www.cbrr.ru', port=443): Max retries exceeded with url: /scripts/XML_daily.asp?date_req=20/05/2025 (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.cbrr.ru'. (_ssl.c:1000)")))
+[2025-05-21T17:20:18.283+0000] {test_car_5 _tg_err.py:141} INFO - Waiting 30.0 minutes before next attempt...
+[2025-05-21T17:37:07.320+0000] {local_task_job_runner.py:346} WARNING - State of this instance has been externally set to restarting. Terminating instance.
+[2025-05-21T17:37:07.322+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2025-05-21T17:37:07.326+0000] {process_utils.py:132} INFO - Sending 15 to group 347. PIDs of all processes in the group: [347]
+[2025-05-21T17:37:07.328+0000] {process_utils.py:87} INFO - Sending the signal 15 to group 347
+[2025-05-21T17:37:07.330+0000] {taskinstance.py:3093} ERROR - Received SIGTERM. Terminating subprocesses.
+[2025-05-21T17:37:07.351+0000] {taskinstance.py:3311} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 466, in _make_request
+    self._validate_conn(conn)
+  File "/home/airflow/.local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 1095, in _validate_conn
+    conn.connect()
+  File "/home/airflow/.local/lib/python3.12/site-packages/urllib3/connection.py", line 730, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/urllib3/connection.py", line 909, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 469, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 513, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/ssl.py", line 1041, in _create
+    self.do_handshake()
+  File "/usr/local/lib/python3.12/ssl.py", line 1319, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.cbrr.ru'. (_ssl.c:1000)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 490, in _make_request
+    raise new_e
+urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.cbrr.ru'. (_ssl.c:1000)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.cbrr.ru', port=443): Max retries exceeded with url: /scripts/XML_daily.asp?date_req=20/05/2025 (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.cbrr.ru'. (_ssl.c:1000)")))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/airflow/dags/test_car_5 _tg_err.py", line 105, in get_currency_rate
+    response = requests.get(url, timeout=10)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/requests/adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.cbrr.ru', port=443): Max retries exceeded with url: /scripts/XML_daily.asp?date_req=20/05/2025 (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.cbrr.ru'. (_ssl.c:1000)")))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 422, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/test_car_5 _tg_err.py", line 171, in process_file
+    currency_rate = get_currency_rate(execution_date)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/test_car_5 _tg_err.py", line 142, in get_currency_rate
+    time.sleep(retry_delay)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3095, in signal_handler
+    raise AirflowTaskTerminated("Task received SIGTERM signal")
+airflow.exceptions.AirflowTaskTerminated: Task received SIGTERM signal
+[2025-05-21T17:37:07.384+0000] {taskinstance.py:1225} INFO - Marking task as UP_FOR_RETRY. dag_id=test_car_5_tg_err, task_id=process_file, run_id=scheduled__2025-05-20T00:00:00+00:00, execution_date=20250520T000000, start_date=20250521T172017, end_date=20250521T173707
+[2025-05-21T17:37:07.410+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-05-21T17:37:07.462+0000] {process_utils.py:80} INFO - Process psutil.Process(pid=347, status='terminated', exitcode=2, started='17:20:16') (347) terminated with exit code 2
+[2025-05-21T17:38:58.221+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-05-21T17:38:58.266+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: test_car_5_tg_err.process_file scheduled__2025-05-20T00:00:00+00:00 [queued]>
+[2025-05-21T17:38:58.296+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: test_car_5_tg_err.process_file scheduled__2025-05-20T00:00:00+00:00 [queued]>
+[2025-05-21T17:38:58.297+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2025-05-21T17:38:58.341+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): process_file> on 2025-05-20 00:00:00+00:00
+[2025-05-21T17:38:58.365+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=556) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-05-21T17:38:58.374+0000] {standard_task_runner.py:72} INFO - Started process 558 to run task
+[2025-05-21T17:38:58.378+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'test_car_5_tg_err', 'process_file', 'scheduled__2025-05-20T00:00:00+00:00', '--job-id', '10', '--raw', '--subdir', 'DAGS_FOLDER/test_car_5 _tg_err.py', '--cfg-path', '/tmp/tmpczfotyc9']
+[2025-05-21T17:38:58.383+0000] {standard_task_runner.py:105} INFO - Job 10: Subtask process_file
+[2025-05-21T17:38:58.498+0000] {task_command.py:467} INFO - Running <TaskInstance: test_car_5_tg_err.process_file scheduled__2025-05-20T00:00:00+00:00 [running]> on host 0562d356b684
+[2025-05-21T17:38:58.640+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='test_car_5_tg_err' AIRFLOW_CTX_TASK_ID='process_file' AIRFLOW_CTX_EXECUTION_DATE='2025-05-20T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-05-20T00:00:00+00:00'
+[2025-05-21T17:38:58.641+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-05-21T17:38:58.664+0000] {test_car_5 _tg_err.py:165} INFO - >>> [START] process_file
+[2025-05-21T17:38:58.665+0000] {test_car_5 _tg_err.py:168} INFO - Execution date: 2025-05-20 00:00:00+00:00
+[2025-05-21T17:38:58.851+0000] {test_car_5 _tg_err.py:139} WARNING - Attempt 1 failed to get currency rate: HTTPSConnectionPool(host='www.cbrr.ru', port=443): Max retries exceeded with url: /scripts/XML_daily.asp?date_req=20/05/2025 (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.cbrr.ru'. (_ssl.c:1000)")))
+[2025-05-21T17:38:58.856+0000] {test_car_5 _tg_err.py:141} INFO - Waiting 2.0 minutes before next attempt...
+[2025-05-21T17:40:59.134+0000] {test_car_5 _tg_err.py:139} WARNING - Attempt 2 failed to get currency rate: HTTPSConnectionPool(host='www.cbrr.ru', port=443): Max retries exceeded with url: /scripts/XML_daily.asp?date_req=20/05/2025 (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.cbrr.ru'. (_ssl.c:1000)")))
+[2025-05-21T17:40:59.135+0000] {test_car_5 _tg_err.py:141} INFO - Waiting 2.0 minutes before next attempt...
+[2025-05-21T17:42:59.276+0000] {test_car_5 _tg_err.py:139} WARNING - Attempt 3 failed to get currency rate: HTTPSConnectionPool(host='www.cbrr.ru', port=443): Max retries exceeded with url: /scripts/XML_daily.asp?date_req=20/05/2025 (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.cbrr.ru'. (_ssl.c:1000)")))
+[2025-05-21T17:42:59.296+0000] {base.py:84} INFO - Retrieving connection 'postgres_default'
+[2025-05-21T17:42:59.303+0000] {test_car_5 _tg_err.py:79} ERROR - Error getting last known rate from DB: relation "cur_rate" does not exist
+LINE 2:             SELECT value FROM cur_rate 
+                                      ^
+
+[2025-05-21T17:42:59.635+0000] {test_car_5 _tg_err.py:59} INFO - Telegram notification sent successfully
+[2025-05-21T17:42:59.636+0000] {test_car_5 _tg_err.py:156} ERROR - ⚠️ <b>Ошибка в DAG test_car_5_tg</b>
+Не удалось получить курс валют после 3 попыток
+Последняя ошибка: HTTPSConnectionPool(host='www.cbrr.ru', port=443): Max retries exceeded with url: /scripts/XML_daily.asp?date_req=20/05/2025 (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.cbrr.ru'. (_ssl.c:1000)")))
+Использован резервный курс: 75.0
+Дата выполнения: 2025-05-20 00:00:00+00:00
+[2025-05-21T17:42:59.637+0000] {test_car_5 _tg_err.py:172} INFO - Currency rate: 75.0
+[2025-05-21T17:42:59.651+0000] {base.py:84} INFO - Retrieving connection 'minio_conn'
+[2025-05-21T17:42:59.653+0000] {connection_wrapper.py:328} INFO - AWS Connection (conn_id='minio_conn', conn_type='aws') credentials retrieved from extra.
+[2025-05-21T17:43:01.384+0000] {test_car_5 _tg_err.py:206} INFO - Successfully read with utf-16
+[2025-05-21T17:43:01.717+0000] {test_car_5 _tg_err.py:207} INFO - Data sample:
+    brand   model  ...  price_rub            processing_date
+0  Toyota   Camry  ...  1875000.0  2025-05-20T00:00:00+00:00
+1   Honda  Accord  ...  1650000.0  2025-05-20T00:00:00+00:00
+2     BMW      X5  ...  3375000.0  2025-05-20T00:00:00+00:00
+3    Lada   Vesta  ...  1350000.0  2025-05-20T00:00:00+00:00
+4    Audi      A6  ...  2850000.0  2025-05-20T00:00:00+00:00
+
+[5 rows x 8 columns]
+[2025-05-21T17:43:01.726+0000] {python.py:240} INFO - Done. Returned value was: [{'brand': 'Toyota', 'model': 'Camry', 'engine_volume': 2.5, 'manufacture_year': 2020, 'price_foreign': 25000, 'file_actual_date': datetime.date(2025, 5, 1), 'price_rub': 1875000.0, 'processing_date': '2025-05-20T00:00:00+00:00'}, {'brand': 'Honda', 'model': 'Accord', 'engine_volume': 1.5, 'manufacture_year': 2021, 'price_foreign': 22000, 'file_actual_date': datetime.date(2025, 5, 1), 'price_rub': 1650000.0, 'processing_date': '2025-05-20T00:00:00+00:00'}, {'brand': 'BMW', 'model': 'X5', 'engine_volume': 3.0, 'manufacture_year': 2019, 'price_foreign': 45000, 'file_actual_date': datetime.date(2025, 5, 1), 'price_rub': 3375000.0, 'processing_date': '2025-05-20T00:00:00+00:00'}, {'brand': 'Lada', 'model': 'Vesta', 'engine_volume': 1.6, 'manufacture_year': 2022, 'price_foreign': 18000, 'file_actual_date': datetime.date(2025, 5, 1), 'price_rub': 1350000.0, 'processing_date': '2025-05-20T00:00:00+00:00'}, {'brand': 'Audi', 'model': 'A6', 'engine_volume': 2.0, 'manufacture_year': 2021, 'price_foreign': 38000, 'file_actual_date': datetime.date(2025, 5, 1), 'price_rub': 2850000.0, 'processing_date': '2025-05-20T00:00:00+00:00'}, {'brand': 'Kia', 'model': 'Optima', 'engine_volume': 2.4, 'manufacture_year': 2020, 'price_foreign': 21000, 'file_actual_date': datetime.date(2025, 5, 1), 'price_rub': 1575000.0, 'processing_date': '2025-05-20T00:00:00+00:00'}, {'brand': 'Hyundai', 'model': 'Solaris', 'engine_volume': 1.6, 'manufacture_year': 2021, 'price_foreign': 15000, 'file_actual_date': datetime.date(2025, 5, 1), 'price_rub': 1125000.0, 'processing_date': '2025-05-20T00:00:00+00:00'}, {'brand': 'Lexus', 'model': 'RX', 'engine_volume': 3.5, 'manufacture_year': 2020, 'price_foreign': 52000, 'file_actual_date': datetime.date(2025, 5, 1), 'price_rub': 3900000.0, 'processing_date': '2025-05-20T00:00:00+00:00'}, {'brand': 'Ford', 'model': 'Focus', 'engine_volume': 1.5, 'manufacture_year': 2019, 'price_foreign': 17000, 'file_actual_date': datetime.date(2025, 5, 1), 'price_rub': 1275000.0, 'processing_date': '2025-05-20T00:00:00+00:00'}, {'brand': 'Volkswagen', 'model': 'Tiguan', 'engine_volume': 2.0, 'manufacture_year': 2022, 'price_foreign': 32000, 'file_actual_date': datetime.date(2025, 5, 1), 'price_rub': 2400000.0, 'processing_date': '2025-05-20T00:00:00+00:00'}, {'brand': 'Skoda', 'model': 'Octavia', 'engine_volume': 1.4, 'manufacture_year': 2021, 'price_foreign': 23000, 'file_actual_date': datetime.date(2025, 5, 1), 'price_rub': 1725000.0, 'processing_date': '2025-05-20T00:00:00+00:00'}, {'brand': 'Mercedes', 'model': 'E-Class', 'engine_volume': 2.0, 'manufacture_year': 2020, 'price_foreign': 42000, 'file_actual_date': datetime.date(2025, 5, 1), 'price_rub': 3150000.0, 'processing_date': '2025-05-20T00:00:00+00:00'}, {'brand': 'Nissan', 'model': 'Qashqai', 'engine_volume': 1.3, 'manufacture_year': 2021, 'price_foreign': 25000, 'file_actual_date': datetime.date(2025, 5, 1), 'price_rub': 1875000.0, 'processing_date': '2025-05-20T00:00:00+00:00'}, {'brand': 'Mazda', 'model': 'CX-5', 'engine_volume': 2.5, 'manufacture_year': 2022, 'price_foreign': 29000, 'file_actual_date': datetime.date(2025, 5, 1), 'price_rub': 2175000.0, 'processing_date': '2025-05-20T00:00:00+00:00'}, {'brand': 'Subaru', 'model': 'Forester', 'engine_volume': 2.5, 'manufacture_year': 2021, 'price_foreign': 31000, 'file_actual_date': datetime.date(2025, 5, 1), 'price_rub': 2325000.0, 'processing_date': '2025-05-20T00:00:00+00:00'}, {'brand': 'Toyota', 'model': 'RAV4', 'engine_volume': 2.0, 'manufacture_year': 2021, 'price_foreign': 27000, 'file_actual_date': datetime.date(2025, 5, 1), 'price_rub': 2025000.0, 'processing_date': '2025-05-20T00:00:00+00:00'}, {'brand': 'Honda', 'model': 'CR-V', 'engine_volume': 1.5, 'manufacture_year': 2020, 'price_foreign': 30000, 'file_actual_date': datetime.date(2025, 5, 1), 'price_rub': 2250000.0, 'processing_date': '2025-05-20T00:00:00+00:00'}, {'brand': 'BMW', 'model': '3 Series', 'engine_volume': 2.0, 'manufacture_year': 2022, 'price_foreign': 40000, 'file_actual_date': datetime.date(2025, 5, 1), 'price_rub': 3000000.0, 'processing_date': '2025-05-20T00:00:00+00:00'}, {'brand': 'Lada', 'model': 'Granta', 'engine_volume': 1.6, 'manufacture_year': 2021, 'price_foreign': 12000, 'file_actual_date': datetime.date(2025, 5, 1), 'price_rub': 900000.0, 'processing_date': '2025-05-20T00:00:00+00:00'}, {'brand': 'Audi', 'model': 'Q5', 'engine_volume': 2.0, 'manufacture_year': 2020, 'price_foreign': 42000, 'file_actual_date': datetime.date(2025, 5, 1), 'price_rub': 3150000.0, 'processing_date': '2025-05-20T00:00:00+00:00'}, {'brand': 'Kia', 'model': 'Sportage', 'engine_volume': 2.0, 'manufacture_year': 2021, 'price_foreign': 23000, 'file_actual_date': datetime.date(2025, 5, 1), 'price_rub': 1725000.0, 'processing_date': '2025-05-20T00:00:00+00:00'}, {'brand': 'Hyundai', 'model': 'Tucson', 'engine_volume': 1.6, 'manufacture_year': 2022, 'price_foreign': 25000, 'file_actual_date': datetime.date(2025, 5, 1), 'price_rub': 1875000.0, 'processing_date': '2025-05-20T00:00:00+00:00'}, {'brand': 'Lexus', 'model': 'NX', 'engine_volume': 2.5, 'manufacture_year': 2021, 'price_foreign': 45000, 'file_actual_date': datetime.date(2025, 5, 1), 'price_rub': 3375000.0, 'processing_date': '2025-05-20T00:00:00+00:00'}, {'brand': 'Ford', 'model': 'Kuga', 'engine_volume': 1.5, 'manufacture_year': 2020, 'price_foreign': 28000, 'file_actual_date': datetime.date(2025, 5, 1), 'price_rub': 2100000.0, 'processing_date': '2025-05-20T00:00:00+00:00'}, {'brand': 'Volkswagen', 'model': 'Passat', 'engine_volume': 2.0, 'manufacture_year': 2019, 'price_foreign': 26000, 'file_actual_date': datetime.date(2025, 5, 1), 'price_rub': 1950000.0, 'processing_date': '2025-05-20T00:00:00+00:00'}, {'brand': 'Skoda', 'model': 'Kodiaq', 'engine_volume': 2.0, 'manufacture_year': 2021, 'price_foreign': 34000, 'file_actual_date': datetime.date(2025, 5, 1), 'price_rub': 2550000.0, 'processing_date': '2025-05-20T00:00:00+00:00'}, {'brand': 'Mercedes', 'model': 'GLC', 'engine_volume': 2.0, 'manufacture_year': 2022, 'price_foreign': 48000, 'file_actual_date': datetime.date(2025, 5, 1), 'price_rub': 3600000.0, 'processing_date': '2025-05-20T00:00:00+00:00'}, {'brand': 'Nissan', 'model': 'X-Trail', 'engine_volume': 2.5, 'manufacture_year': 2020, 'price_foreign': 32000, 'file_actual_date': datetime.date(2025, 5, 1), 'price_rub': 2400000.0, 'processing_date': '2025-05-20T00:00:00+00:00'}, {'brand': 'Mazda', 'model': '6', 'engine_volume': 2.5, 'manufacture_year': 2021, 'price_foreign': 28000, 'file_actual_date': datetime.date(2025, 5, 1), 'price_rub': 2100000.0, 'processing_date': '2025-05-20T00:00:00+00:00'}, {'brand': 'Subaru', 'model': 'Outback', 'engine_volume': 2.4, 'manufacture_year': 2022, 'price_foreign': 35000, 'file_actual_date': datetime.date(2025, 5, 1), 'price_rub': 2625000.0, 'processing_date': '2025-05-20T00:00:00+00:00'}, {'brand': 'Volvo', 'model': 'XC60', 'engine_volume': 2.0, 'manufacture_year': 2021, 'price_foreign': 42000, 'file_actual_date': datetime.date(2025, 5, 1), 'price_rub': 3150000.0, 'processing_date': '2025-05-20T00:00:00+00:00'}, {'brand': 'Jeep', 'model': 'Grand Cherokee', 'engine_volume': 3.6, 'manufacture_year': 2020, 'price_foreign': 50000, 'file_actual_date': datetime.date(2025, 5, 1), 'price_rub': 3750000.0, 'processing_date': '2025-05-20T00:00:00+00:00'}, {'brand': 'Land Rover', 'model': 'Range Rover Evoque', 'engine_volume': 2.0, 'manufacture_year': 2021, 'price_foreign': 52000, 'file_actual_date': datetime.date(2025, 5, 1), 'price_rub': 3900000.0, 'processing_date': '2025-05-20T00:00:00+00:00'}, {'brand': 'Porsche', 'model': 'Cayenne', 'engine_volume': 3.0, 'manufacture_year': 2022, 'price_foreign': 75000, 'file_actual_date': datetime.date(2025, 5, 1), 'price_rub': 5625000.0, 'processing_date': '2025-05-20T00:00:00+00:00'}, {'brand': 'Tesla', 'model': 'Model Y', 'engine_volume': 0.0, 'manufacture_year': 2021, 'price_foreign': 55000, 'file_actual_date': datetime.date(2025, 5, 1), 'price_rub': 4125000.0, 'processing_date': '2025-05-20T00:00:00+00:00'}, {'brand': 'Renault', 'model': 'Duster', 'engine_volume': 1.5, 'manufacture_year': 2020, 'price_foreign': 18000, 'file_actual_date': datetime.date(2025, 5, 1), 'price_rub': 1350000.0, 'processing_date': '2025-05-20T00:00:00+00:00'}, {'brand': 'Peugeot', 'model': '3008', 'engine_volume': 1.6, 'manufacture_year': 2021, 'price_foreign': 24000, 'file_actual_date': datetime.date(2025, 5, 1), 'price_rub': 1800000.0, 'processing_date': '2025-05-20T00:00:00+00:00'}, {'brand': 'Citroen', 'model': 'C5 Aircross', 'engine_volume': 1.6, 'manufacture_year': 2022, 'price_foreign': 22000, 'file_actual_date': datetime.date(2025, 5, 1), 'price_rub': 1650000.0, 'processing_date': '2025-05-20T00:00:00+00:00'}, {'brand': 'Opel', 'model': 'Grandland X', 'engine_volume': 1.6, 'manufacture_year': 2020, 'price_foreign': 23000, 'file_actual_date': datetime.date(2025, 5, 1), 'price_rub': 1725000.0, 'processing_date': '2025-05-20T00:00:00+00:00'}, {'brand': 'Mitsubishi', 'model': 'Outlander', 'engine_volume': 2.4, 'manufacture_year': 2021, 'price_foreign': 29000, 'file_actual_date': datetime.date(2025, 5, 1), 'price_rub': 2175000.0, 'processing_date': '2025-05-20T00:00:00+00:00'}, {'brand': 'Infiniti', 'model': 'Q50', 'engine_volume': 2.0, 'manufacture_year': 2020, 'price_foreign': 38000, 'file_actual_date': datetime.date(2025, 5, 1), 'price_rub': 2850000.0, 'processing_date': '2025-05-20T00:00:00+00:00'}, {'brand': 'Genesis', 'model': 'G70', 'engine_volume': 2.0, 'manufacture_year': 2021, 'price_foreign': 40000, 'file_actual_date': datetime.date(2025, 5, 1), 'price_rub': 3000000.0, 'processing_date': '2025-05-20T00:00:00+00:00'}, {'brand': 'Mini', 'model': 'Countryman', 'engine_volume': 1.5, 'manufacture_year': 2022, 'price_foreign': 32000, 'file_actual_date': datetime.date(2025, 5, 1), 'price_rub': 2400000.0, 'processing_date': '2025-05-20T00:00:00+00:00'}, {'brand': 'SsangYong', 'model': 'Rexton', 'engine_volume': 2.2, 'manufacture_year': 2020, 'price_foreign': 28000, 'file_actual_date': datetime.date(2025, 5, 1), 'price_rub': 2100000.0, 'processing_date': '2025-05-20T00:00:00+00:00'}, {'brand': 'Great', 'model': 'Tiggo 7 Pro', 'engine_volume': 1.5, 'manufacture_year': 2021, 'price_foreign': 20000, 'file_actual_date': datetime.date(2025, 5, 1), 'price_rub': 1500000.0, 'processing_date': '2025-05-20T00:00:00+00:00'}]
+[2025-05-21T17:43:02.094+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-05-21T17:43:02.115+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=test_car_5_tg_err, task_id=process_file, run_id=scheduled__2025-05-20T00:00:00+00:00, execution_date=20250520T000000, start_date=20250521T173858, end_date=20250521T174302
+[2025-05-21T17:43:02.242+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-05-21T17:43:02.306+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-05-21T17:43:02.312+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

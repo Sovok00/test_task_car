@@ -1,0 +1,24 @@
+[2025-05-21T18:28:55.398+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-05-21T18:28:55.449+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: test_car_5_tg.load_to_greenplum manual__2025-05-21T18:28:36.674131+00:00 [queued]>
+[2025-05-21T18:28:55.480+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: test_car_5_tg.load_to_greenplum manual__2025-05-21T18:28:36.674131+00:00 [queued]>
+[2025-05-21T18:28:55.483+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2025-05-21T18:28:55.528+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): load_to_greenplum> on 2025-05-21 18:28:36.674131+00:00
+[2025-05-21T18:28:55.547+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=1147) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-05-21T18:28:55.550+0000] {standard_task_runner.py:72} INFO - Started process 1149 to run task
+[2025-05-21T18:28:55.559+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'test_car_5_tg', 'load_to_greenplum', 'manual__2025-05-21T18:28:36.674131+00:00', '--job-id', '16', '--raw', '--subdir', 'DAGS_FOLDER/test_car_5 _tg.py', '--cfg-path', '/tmp/tmpa8d6m2ux']
+[2025-05-21T18:28:55.564+0000] {standard_task_runner.py:105} INFO - Job 16: Subtask load_to_greenplum
+[2025-05-21T18:28:55.692+0000] {task_command.py:467} INFO - Running <TaskInstance: test_car_5_tg.load_to_greenplum manual__2025-05-21T18:28:36.674131+00:00 [running]> on host 0562d356b684
+[2025-05-21T18:28:56.183+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='test_car_5_tg' AIRFLOW_CTX_TASK_ID='load_to_greenplum' AIRFLOW_CTX_EXECUTION_DATE='2025-05-21T18:28:36.674131+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-05-21T18:28:36.674131+00:00'
+[2025-05-21T18:28:56.186+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-05-21T18:28:56.292+0000] {test_car_5 _tg.py:218} INFO - >>> [START] load_to_greenplum
+[2025-05-21T18:28:56.457+0000] {base.py:84} INFO - Retrieving connection 'postgres_default'
+[2025-05-21T18:28:57.021+0000] {test_car_5 _tg.py:59} INFO - Telegram notification sent successfully
+[2025-05-21T18:28:57.025+0000] {test_car_5 _tg.py:294} INFO - Successfully loaded 45/45 records to GreenPlum
+[2025-05-21T18:28:57.031+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-05-21T18:28:57.065+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-05-21T18:28:57.066+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=test_car_5_tg, task_id=load_to_greenplum, run_id=manual__2025-05-21T18:28:36.674131+00:00, execution_date=20250521T182836, start_date=20250521T182855, end_date=20250521T182857
+[2025-05-21T18:28:57.176+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-05-21T18:28:57.284+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-05-21T18:28:57.325+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
