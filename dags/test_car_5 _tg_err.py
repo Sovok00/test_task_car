@@ -35,7 +35,7 @@ default_args = {
 
 # Определение DAG
 dag = DAG(
-    'test_car_5_tg_err',
+    'test_car_5_tg',
     default_args=default_args,
     description='ETL для данных об автомобилях с конвертацией в рубли',
     schedule_interval='0 0 * * 1-6',  # С понедельника по субботу в 00:00
@@ -184,7 +184,7 @@ def process_file(**context):
         # Проверка существования файла
         if not s3_hook.check_for_key(file_key, bucket):
             error_msg = f"Файл {file_key} не найден в бакете {bucket}"
-            send_telegram_message(f"❌ <b>Ошибка в DAG test_car_5_tg_err</b>\n{error_msg}")
+            send_telegram_message(f"❌ <b>Ошибка в DAG test_car_5_tg</b>\n{error_msg}")
             raise ValueError(error_msg)
 
         # Чтение файла из S3
@@ -212,23 +212,23 @@ def process_file(**context):
                 continue
         else:
             error_msg = "Не удалось декодировать файл с тестируемыми кодировками"
-            send_telegram_message(f"❌ <b>Ошибка в DAG test_car_5_tg_err</b>\n{error_msg}")
+            send_telegram_message(f"❌ <b>Ошибка в DAG test_car_5_tg</b>\n{error_msg}")
             raise ValueError(error_msg)
 
         return df.to_dict('records')
 
     except Exception as e:
         error_msg = f"Ошибка в process_file: {str(e)}"
-        send_telegram_message(f"❌ <b>Ошибка в DAG test_car_5_tg_err</b>\n{error_msg}")
+        send_telegram_message(f"❌ <b>Ошибка в DAG test_car_5_tg</b>\n{error_msg}")
         logger.error(f"Error in process_file: {str(e)}", exc_info=True)
         raise
 
 
-def load_to_greenplum(**context):
+def load_to_postgres(**context):
     """
-    Функция для загрузки данных в GreenPlum.
+    Функция для загрузки данных в pg.
     """
-    logger.info(">>> [START] load_to_greenplum")
+    logger.info(">>> [START] load_to_postgres")
     conn = None
     cursor = None
 
@@ -237,10 +237,10 @@ def load_to_greenplum(**context):
         records = context['ti'].xcom_pull(task_ids='process_file')
         if not records:
             error_msg = "Нет данных для загрузки из XCom"
-            send_telegram_message(f"❌ <b>Ошибка в DAG test_car_5_tg_err</b>\n{error_msg}")
+            send_telegram_message(f"❌ <b>Ошибка в DAG test_car_5_tg</b>\n{error_msg}")
             raise ValueError(error_msg)
 
-        # Подключение к GreenPlum
+        # Подключение к postgres
         hook = PostgresHook(
             postgres_conn_id='postgres_default',
             schema='news_db'
@@ -299,16 +299,16 @@ def load_to_greenplum(**context):
 
         conn.commit()
         success_msg = (
-            f"✅ <b>DAG test_car_5_tg_err успешно выполнен</b>\n"
+            f"✅ <b>DAG test_car_5_tg успешно выполнен</b>\n"
             f"Загружено записей: {successful_inserts}/{len(records)}\n"
             f"Дата выполнения: {context['execution_date']}"
         )
         send_telegram_message(success_msg)
-        logger.info(f"Successfully loaded {successful_inserts}/{len(records)} records to GreenPlum")
+        logger.info(f"Successfully loaded {successful_inserts}/{len(records)} records to postgres")
 
     except Exception as e:
-        error_msg = f"Ошибка в load_to_greenplum: {str(e)}"
-        send_telegram_message(f"❌ <b>Ошибка в DAG test_car_5_tg_err</b>\n{error_msg}")
+        error_msg = f"Ошибка в load_to_postgres: {str(e)}"
+        send_telegram_message(f"❌ <b>Ошибка в DAG test_car_5_tg</b>\n{error_msg}")
         logger.error(f"DB error: {str(e)}", exc_info=True)
         if conn:
             conn.rollback()
@@ -329,8 +329,8 @@ process_task = PythonOperator(
 )
 
 load_task = PythonOperator(
-    task_id='load_to_greenplum',
-    python_callable=load_to_greenplum,
+    task_id='load_to_postgres',
+    python_callable=load_to_postgres,
     provide_context=True,
     dag=dag,
 )
