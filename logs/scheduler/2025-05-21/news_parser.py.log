@@ -1462,3 +1462,165 @@
 [2025-05-21T18:47:28.359+0000] {logging_mixin.py:190} INFO - [2025-05-21T18:47:28.358+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-05-21T18:47:28.409+0000] {logging_mixin.py:190} INFO - [2025-05-21T18:47:28.408+0000] {dag.py:4180} INFO - Setting next_dagrun for news_parser to 2025-05-20 09:00:00+00:00, run_after=2025-05-21 09:00:00+00:00
 [2025-05-21T18:47:28.441+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/news_parser.py took 0.361 seconds
+[2025-05-21T18:47:58.881+0000] {processor.py:186} INFO - Started process (PID=4216) to work on /opt/airflow/dags/news_parser.py
+[2025-05-21T18:47:58.882+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/news_parser.py for tasks to queue
+[2025-05-21T18:47:58.889+0000] {logging_mixin.py:190} INFO - [2025-05-21T18:47:58.888+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/news_parser.py
+[2025-05-21T18:47:59.059+0000] {processor.py:925} INFO - DAG(s) 'news_parser' retrieved from /opt/airflow/dags/news_parser.py
+[2025-05-21T18:47:59.093+0000] {logging_mixin.py:190} INFO - [2025-05-21T18:47:59.093+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T18:47:59.135+0000] {logging_mixin.py:190} INFO - [2025-05-21T18:47:59.134+0000] {dag.py:4180} INFO - Setting next_dagrun for news_parser to 2025-05-20 09:00:00+00:00, run_after=2025-05-21 09:00:00+00:00
+[2025-05-21T18:47:59.166+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/news_parser.py took 0.294 seconds
+[2025-05-21T18:48:29.271+0000] {processor.py:186} INFO - Started process (PID=4236) to work on /opt/airflow/dags/news_parser.py
+[2025-05-21T18:48:29.273+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/news_parser.py for tasks to queue
+[2025-05-21T18:48:29.277+0000] {logging_mixin.py:190} INFO - [2025-05-21T18:48:29.277+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/news_parser.py
+[2025-05-21T18:48:29.505+0000] {processor.py:925} INFO - DAG(s) 'news_parser' retrieved from /opt/airflow/dags/news_parser.py
+[2025-05-21T18:48:29.591+0000] {logging_mixin.py:190} INFO - [2025-05-21T18:48:29.590+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T18:48:29.814+0000] {logging_mixin.py:190} INFO - [2025-05-21T18:48:29.814+0000] {dag.py:4180} INFO - Setting next_dagrun for news_parser to 2025-05-20 09:00:00+00:00, run_after=2025-05-21 09:00:00+00:00
+[2025-05-21T18:48:29.907+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/news_parser.py took 0.644 seconds
+[2025-05-21T18:49:00.861+0000] {processor.py:186} INFO - Started process (PID=4257) to work on /opt/airflow/dags/news_parser.py
+[2025-05-21T18:49:00.862+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/news_parser.py for tasks to queue
+[2025-05-21T18:49:00.867+0000] {logging_mixin.py:190} INFO - [2025-05-21T18:49:00.866+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/news_parser.py
+[2025-05-21T18:49:01.064+0000] {processor.py:925} INFO - DAG(s) 'news_parser' retrieved from /opt/airflow/dags/news_parser.py
+[2025-05-21T18:49:01.129+0000] {logging_mixin.py:190} INFO - [2025-05-21T18:49:01.127+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T18:49:01.247+0000] {logging_mixin.py:190} INFO - [2025-05-21T18:49:01.247+0000] {dag.py:4180} INFO - Setting next_dagrun for news_parser to 2025-05-20 09:00:00+00:00, run_after=2025-05-21 09:00:00+00:00
+[2025-05-21T18:49:01.333+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/news_parser.py took 0.485 seconds
+[2025-05-21T18:49:31.602+0000] {processor.py:186} INFO - Started process (PID=4277) to work on /opt/airflow/dags/news_parser.py
+[2025-05-21T18:49:31.604+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/news_parser.py for tasks to queue
+[2025-05-21T18:49:31.615+0000] {logging_mixin.py:190} INFO - [2025-05-21T18:49:31.614+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/news_parser.py
+[2025-05-21T18:49:31.997+0000] {processor.py:925} INFO - DAG(s) 'news_parser' retrieved from /opt/airflow/dags/news_parser.py
+[2025-05-21T18:49:32.088+0000] {logging_mixin.py:190} INFO - [2025-05-21T18:49:32.087+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T18:49:32.200+0000] {logging_mixin.py:190} INFO - [2025-05-21T18:49:32.199+0000] {dag.py:4180} INFO - Setting next_dagrun for news_parser to 2025-05-20 09:00:00+00:00, run_after=2025-05-21 09:00:00+00:00
+[2025-05-21T18:49:32.285+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/news_parser.py took 0.698 seconds
+[2025-05-21T18:50:02.602+0000] {processor.py:186} INFO - Started process (PID=4297) to work on /opt/airflow/dags/news_parser.py
+[2025-05-21T18:50:02.604+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/news_parser.py for tasks to queue
+[2025-05-21T18:50:02.607+0000] {logging_mixin.py:190} INFO - [2025-05-21T18:50:02.607+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/news_parser.py
+[2025-05-21T18:50:02.781+0000] {processor.py:925} INFO - DAG(s) 'news_parser' retrieved from /opt/airflow/dags/news_parser.py
+[2025-05-21T18:50:02.817+0000] {logging_mixin.py:190} INFO - [2025-05-21T18:50:02.816+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T18:50:02.856+0000] {logging_mixin.py:190} INFO - [2025-05-21T18:50:02.856+0000] {dag.py:4180} INFO - Setting next_dagrun for news_parser to 2025-05-20 09:00:00+00:00, run_after=2025-05-21 09:00:00+00:00
+[2025-05-21T18:50:02.888+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/news_parser.py took 0.295 seconds
+[2025-05-21T18:50:33.680+0000] {processor.py:186} INFO - Started process (PID=4317) to work on /opt/airflow/dags/news_parser.py
+[2025-05-21T18:50:33.683+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/news_parser.py for tasks to queue
+[2025-05-21T18:50:33.688+0000] {logging_mixin.py:190} INFO - [2025-05-21T18:50:33.687+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/news_parser.py
+[2025-05-21T18:50:33.873+0000] {processor.py:925} INFO - DAG(s) 'news_parser' retrieved from /opt/airflow/dags/news_parser.py
+[2025-05-21T18:50:33.910+0000] {logging_mixin.py:190} INFO - [2025-05-21T18:50:33.909+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T18:50:33.953+0000] {logging_mixin.py:190} INFO - [2025-05-21T18:50:33.952+0000] {dag.py:4180} INFO - Setting next_dagrun for news_parser to 2025-05-20 09:00:00+00:00, run_after=2025-05-21 09:00:00+00:00
+[2025-05-21T18:50:33.985+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/news_parser.py took 0.316 seconds
+[2025-05-21T18:51:04.382+0000] {processor.py:186} INFO - Started process (PID=4336) to work on /opt/airflow/dags/news_parser.py
+[2025-05-21T18:51:04.384+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/news_parser.py for tasks to queue
+[2025-05-21T18:51:04.389+0000] {logging_mixin.py:190} INFO - [2025-05-21T18:51:04.388+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/news_parser.py
+[2025-05-21T18:51:04.737+0000] {processor.py:925} INFO - DAG(s) 'news_parser' retrieved from /opt/airflow/dags/news_parser.py
+[2025-05-21T18:51:04.778+0000] {logging_mixin.py:190} INFO - [2025-05-21T18:51:04.776+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T18:51:04.832+0000] {logging_mixin.py:190} INFO - [2025-05-21T18:51:04.831+0000] {dag.py:4180} INFO - Setting next_dagrun for news_parser to 2025-05-20 09:00:00+00:00, run_after=2025-05-21 09:00:00+00:00
+[2025-05-21T18:51:04.865+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/news_parser.py took 0.493 seconds
+[2025-05-21T18:51:35.324+0000] {processor.py:186} INFO - Started process (PID=4356) to work on /opt/airflow/dags/news_parser.py
+[2025-05-21T18:51:35.331+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/news_parser.py for tasks to queue
+[2025-05-21T18:51:35.354+0000] {logging_mixin.py:190} INFO - [2025-05-21T18:51:35.353+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/news_parser.py
+[2025-05-21T18:51:35.784+0000] {processor.py:925} INFO - DAG(s) 'news_parser' retrieved from /opt/airflow/dags/news_parser.py
+[2025-05-21T18:51:35.824+0000] {logging_mixin.py:190} INFO - [2025-05-21T18:51:35.823+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T18:51:35.866+0000] {logging_mixin.py:190} INFO - [2025-05-21T18:51:35.865+0000] {dag.py:4180} INFO - Setting next_dagrun for news_parser to 2025-05-20 09:00:00+00:00, run_after=2025-05-21 09:00:00+00:00
+[2025-05-21T18:51:35.899+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/news_parser.py took 0.596 seconds
+[2025-05-21T18:52:07.453+0000] {processor.py:186} INFO - Started process (PID=4376) to work on /opt/airflow/dags/news_parser.py
+[2025-05-21T18:52:07.457+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/news_parser.py for tasks to queue
+[2025-05-21T18:52:07.487+0000] {logging_mixin.py:190} INFO - [2025-05-21T18:52:07.486+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/news_parser.py
+[2025-05-21T18:52:07.842+0000] {processor.py:925} INFO - DAG(s) 'news_parser' retrieved from /opt/airflow/dags/news_parser.py
+[2025-05-21T18:52:07.887+0000] {logging_mixin.py:190} INFO - [2025-05-21T18:52:07.886+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T18:52:07.960+0000] {logging_mixin.py:190} INFO - [2025-05-21T18:52:07.959+0000] {dag.py:4180} INFO - Setting next_dagrun for news_parser to 2025-05-20 09:00:00+00:00, run_after=2025-05-21 09:00:00+00:00
+[2025-05-21T18:52:08.038+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/news_parser.py took 0.604 seconds
+[2025-05-21T18:52:39.674+0000] {processor.py:186} INFO - Started process (PID=4396) to work on /opt/airflow/dags/news_parser.py
+[2025-05-21T18:52:39.679+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/news_parser.py for tasks to queue
+[2025-05-21T18:52:39.688+0000] {logging_mixin.py:190} INFO - [2025-05-21T18:52:39.686+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/news_parser.py
+[2025-05-21T18:52:40.329+0000] {processor.py:925} INFO - DAG(s) 'news_parser' retrieved from /opt/airflow/dags/news_parser.py
+[2025-05-21T18:52:40.415+0000] {logging_mixin.py:190} INFO - [2025-05-21T18:52:40.413+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T18:52:40.501+0000] {logging_mixin.py:190} INFO - [2025-05-21T18:52:40.501+0000] {dag.py:4180} INFO - Setting next_dagrun for news_parser to 2025-05-20 09:00:00+00:00, run_after=2025-05-21 09:00:00+00:00
+[2025-05-21T18:52:40.560+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/news_parser.py took 0.915 seconds
+[2025-05-21T18:53:11.277+0000] {processor.py:186} INFO - Started process (PID=4416) to work on /opt/airflow/dags/news_parser.py
+[2025-05-21T18:53:11.281+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/news_parser.py for tasks to queue
+[2025-05-21T18:53:11.285+0000] {logging_mixin.py:190} INFO - [2025-05-21T18:53:11.284+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/news_parser.py
+[2025-05-21T18:53:11.559+0000] {processor.py:925} INFO - DAG(s) 'news_parser' retrieved from /opt/airflow/dags/news_parser.py
+[2025-05-21T18:53:11.602+0000] {logging_mixin.py:190} INFO - [2025-05-21T18:53:11.601+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T18:53:11.650+0000] {logging_mixin.py:190} INFO - [2025-05-21T18:53:11.650+0000] {dag.py:4180} INFO - Setting next_dagrun for news_parser to 2025-05-20 09:00:00+00:00, run_after=2025-05-21 09:00:00+00:00
+[2025-05-21T18:53:11.682+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/news_parser.py took 0.417 seconds
+[2025-05-21T18:53:42.921+0000] {processor.py:186} INFO - Started process (PID=4436) to work on /opt/airflow/dags/news_parser.py
+[2025-05-21T18:53:42.922+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/news_parser.py for tasks to queue
+[2025-05-21T18:53:42.927+0000] {logging_mixin.py:190} INFO - [2025-05-21T18:53:42.926+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/news_parser.py
+[2025-05-21T18:53:43.200+0000] {processor.py:925} INFO - DAG(s) 'news_parser' retrieved from /opt/airflow/dags/news_parser.py
+[2025-05-21T18:53:43.239+0000] {logging_mixin.py:190} INFO - [2025-05-21T18:53:43.238+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T18:53:43.278+0000] {logging_mixin.py:190} INFO - [2025-05-21T18:53:43.278+0000] {dag.py:4180} INFO - Setting next_dagrun for news_parser to 2025-05-20 09:00:00+00:00, run_after=2025-05-21 09:00:00+00:00
+[2025-05-21T18:53:43.316+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/news_parser.py took 0.410 seconds
+[2025-05-21T18:54:16.804+0000] {processor.py:186} INFO - Started process (PID=4456) to work on /opt/airflow/dags/news_parser.py
+[2025-05-21T18:54:16.806+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/news_parser.py for tasks to queue
+[2025-05-21T18:54:16.814+0000] {logging_mixin.py:190} INFO - [2025-05-21T18:54:16.813+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/news_parser.py
+[2025-05-21T18:54:17.196+0000] {processor.py:925} INFO - DAG(s) 'news_parser' retrieved from /opt/airflow/dags/news_parser.py
+[2025-05-21T18:54:17.269+0000] {logging_mixin.py:190} INFO - [2025-05-21T18:54:17.268+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T18:54:17.410+0000] {logging_mixin.py:190} INFO - [2025-05-21T18:54:17.409+0000] {dag.py:4180} INFO - Setting next_dagrun for news_parser to 2025-05-20 09:00:00+00:00, run_after=2025-05-21 09:00:00+00:00
+[2025-05-21T18:54:17.459+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/news_parser.py took 0.670 seconds
+[2025-05-21T18:54:50.723+0000] {processor.py:186} INFO - Started process (PID=4483) to work on /opt/airflow/dags/news_parser.py
+[2025-05-21T18:54:50.726+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/news_parser.py for tasks to queue
+[2025-05-21T18:54:50.737+0000] {logging_mixin.py:190} INFO - [2025-05-21T18:54:50.734+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/news_parser.py
+[2025-05-21T18:54:51.304+0000] {processor.py:925} INFO - DAG(s) 'news_parser' retrieved from /opt/airflow/dags/news_parser.py
+[2025-05-21T18:54:51.381+0000] {logging_mixin.py:190} INFO - [2025-05-21T18:54:51.380+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T18:54:51.474+0000] {logging_mixin.py:190} INFO - [2025-05-21T18:54:51.474+0000] {dag.py:4180} INFO - Setting next_dagrun for news_parser to 2025-05-20 09:00:00+00:00, run_after=2025-05-21 09:00:00+00:00
+[2025-05-21T18:54:51.538+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/news_parser.py took 0.841 seconds
+[2025-05-21T18:55:27.851+0000] {processor.py:186} INFO - Started process (PID=4503) to work on /opt/airflow/dags/news_parser.py
+[2025-05-21T18:55:27.854+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/news_parser.py for tasks to queue
+[2025-05-21T18:55:27.862+0000] {logging_mixin.py:190} INFO - [2025-05-21T18:55:27.861+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/news_parser.py
+[2025-05-21T18:55:29.192+0000] {processor.py:925} INFO - DAG(s) 'news_parser' retrieved from /opt/airflow/dags/news_parser.py
+[2025-05-21T18:55:29.388+0000] {logging_mixin.py:190} INFO - [2025-05-21T18:55:29.376+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T18:55:29.711+0000] {logging_mixin.py:190} INFO - [2025-05-21T18:55:29.710+0000] {dag.py:4180} INFO - Setting next_dagrun for news_parser to 2025-05-20 09:00:00+00:00, run_after=2025-05-21 09:00:00+00:00
+[2025-05-21T18:55:30.140+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/news_parser.py took 2.323 seconds
+[2025-05-21T18:56:01.229+0000] {processor.py:186} INFO - Started process (PID=4522) to work on /opt/airflow/dags/news_parser.py
+[2025-05-21T18:56:01.234+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/news_parser.py for tasks to queue
+[2025-05-21T18:56:01.261+0000] {logging_mixin.py:190} INFO - [2025-05-21T18:56:01.260+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/news_parser.py
+[2025-05-21T18:56:02.186+0000] {processor.py:925} INFO - DAG(s) 'news_parser' retrieved from /opt/airflow/dags/news_parser.py
+[2025-05-21T18:56:02.251+0000] {logging_mixin.py:190} INFO - [2025-05-21T18:56:02.249+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T18:56:02.379+0000] {logging_mixin.py:190} INFO - [2025-05-21T18:56:02.379+0000] {dag.py:4180} INFO - Setting next_dagrun for news_parser to 2025-05-20 09:00:00+00:00, run_after=2025-05-21 09:00:00+00:00
+[2025-05-21T18:56:02.447+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/news_parser.py took 1.334 seconds
+[2025-05-21T18:56:32.967+0000] {processor.py:186} INFO - Started process (PID=4542) to work on /opt/airflow/dags/news_parser.py
+[2025-05-21T18:56:32.970+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/news_parser.py for tasks to queue
+[2025-05-21T18:56:32.978+0000] {logging_mixin.py:190} INFO - [2025-05-21T18:56:32.977+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/news_parser.py
+[2025-05-21T18:56:33.362+0000] {processor.py:925} INFO - DAG(s) 'news_parser' retrieved from /opt/airflow/dags/news_parser.py
+[2025-05-21T18:56:33.412+0000] {logging_mixin.py:190} INFO - [2025-05-21T18:56:33.410+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T18:56:33.480+0000] {logging_mixin.py:190} INFO - [2025-05-21T18:56:33.480+0000] {dag.py:4180} INFO - Setting next_dagrun for news_parser to 2025-05-20 09:00:00+00:00, run_after=2025-05-21 09:00:00+00:00
+[2025-05-21T18:56:33.536+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/news_parser.py took 0.594 seconds
+[2025-05-21T18:57:04.832+0000] {processor.py:186} INFO - Started process (PID=4562) to work on /opt/airflow/dags/news_parser.py
+[2025-05-21T18:57:04.835+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/news_parser.py for tasks to queue
+[2025-05-21T18:57:04.843+0000] {logging_mixin.py:190} INFO - [2025-05-21T18:57:04.842+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/news_parser.py
+[2025-05-21T18:57:05.141+0000] {processor.py:925} INFO - DAG(s) 'news_parser' retrieved from /opt/airflow/dags/news_parser.py
+[2025-05-21T18:57:05.213+0000] {logging_mixin.py:190} INFO - [2025-05-21T18:57:05.211+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T18:57:05.340+0000] {logging_mixin.py:190} INFO - [2025-05-21T18:57:05.340+0000] {dag.py:4180} INFO - Setting next_dagrun for news_parser to 2025-05-20 09:00:00+00:00, run_after=2025-05-21 09:00:00+00:00
+[2025-05-21T18:57:05.433+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/news_parser.py took 0.622 seconds
+[2025-05-21T18:57:35.888+0000] {processor.py:186} INFO - Started process (PID=4581) to work on /opt/airflow/dags/news_parser.py
+[2025-05-21T18:57:35.890+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/news_parser.py for tasks to queue
+[2025-05-21T18:57:35.894+0000] {logging_mixin.py:190} INFO - [2025-05-21T18:57:35.893+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/news_parser.py
+[2025-05-21T18:57:36.064+0000] {processor.py:925} INFO - DAG(s) 'news_parser' retrieved from /opt/airflow/dags/news_parser.py
+[2025-05-21T18:57:36.097+0000] {logging_mixin.py:190} INFO - [2025-05-21T18:57:36.097+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T18:57:36.165+0000] {logging_mixin.py:190} INFO - [2025-05-21T18:57:36.164+0000] {dag.py:4180} INFO - Setting next_dagrun for news_parser to 2025-05-20 09:00:00+00:00, run_after=2025-05-21 09:00:00+00:00
+[2025-05-21T18:57:36.250+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/news_parser.py took 0.372 seconds
+[2025-05-21T19:04:22.621+0000] {processor.py:186} INFO - Started process (PID=90) to work on /opt/airflow/dags/news_parser.py
+[2025-05-21T19:04:22.641+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/news_parser.py for tasks to queue
+[2025-05-21T19:04:22.677+0000] {logging_mixin.py:190} INFO - [2025-05-21T19:04:22.675+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/news_parser.py
+[2025-05-21T19:04:24.093+0000] {processor.py:925} INFO - DAG(s) 'news_parser' retrieved from /opt/airflow/dags/news_parser.py
+[2025-05-21T19:04:24.559+0000] {logging_mixin.py:190} INFO - [2025-05-21T19:04:24.556+0000] {override.py:1911} INFO - Created Permission View: can read on DAG:news_parser
+[2025-05-21T19:04:24.613+0000] {logging_mixin.py:190} INFO - [2025-05-21T19:04:24.613+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG:news_parser
+[2025-05-21T19:04:24.638+0000] {logging_mixin.py:190} INFO - [2025-05-21T19:04:24.637+0000] {override.py:1911} INFO - Created Permission View: can edit on DAG:news_parser
+[2025-05-21T19:04:24.685+0000] {logging_mixin.py:190} INFO - [2025-05-21T19:04:24.682+0000] {override.py:1911} INFO - Created Permission View: can read on DAG Run:news_parser
+[2025-05-21T19:04:24.729+0000] {logging_mixin.py:190} INFO - [2025-05-21T19:04:24.728+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:news_parser
+[2025-05-21T19:04:24.774+0000] {logging_mixin.py:190} INFO - [2025-05-21T19:04:24.773+0000] {override.py:1911} INFO - Created Permission View: can create on DAG Run:news_parser
+[2025-05-21T19:04:24.812+0000] {logging_mixin.py:190} INFO - [2025-05-21T19:04:24.811+0000] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:news_parser
+[2025-05-21T19:04:24.829+0000] {logging_mixin.py:190} INFO - [2025-05-21T19:04:24.828+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T19:04:24.946+0000] {logging_mixin.py:190} INFO - [2025-05-21T19:04:24.944+0000] {dag.py:3262} INFO - Creating ORM DAG for news_parser
+[2025-05-21T19:04:25.082+0000] {logging_mixin.py:190} INFO - [2025-05-21T19:04:25.079+0000] {dag.py:4180} INFO - Setting next_dagrun for news_parser to 2025-05-20 09:00:00+00:00, run_after=2025-05-21 09:00:00+00:00
+[2025-05-21T19:04:25.176+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/news_parser.py took 2.604 seconds
+[2025-05-21T19:04:56.032+0000] {processor.py:186} INFO - Started process (PID=110) to work on /opt/airflow/dags/news_parser.py
+[2025-05-21T19:04:56.134+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/news_parser.py for tasks to queue
+[2025-05-21T19:04:56.177+0000] {logging_mixin.py:190} INFO - [2025-05-21T19:04:56.176+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/news_parser.py
+[2025-05-21T19:04:57.488+0000] {processor.py:925} INFO - DAG(s) 'news_parser' retrieved from /opt/airflow/dags/news_parser.py
+[2025-05-21T19:04:57.570+0000] {logging_mixin.py:190} INFO - [2025-05-21T19:04:57.569+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T19:04:57.661+0000] {logging_mixin.py:190} INFO - [2025-05-21T19:04:57.660+0000] {dag.py:4180} INFO - Setting next_dagrun for news_parser to 2025-05-20 09:00:00+00:00, run_after=2025-05-21 09:00:00+00:00
+[2025-05-21T19:04:57.727+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/news_parser.py took 1.724 seconds
+[2025-05-21T19:05:42.879+0000] {processor.py:186} INFO - Started process (PID=136) to work on /opt/airflow/dags/news_parser.py
+[2025-05-21T19:05:42.883+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/news_parser.py for tasks to queue
+[2025-05-21T19:05:42.897+0000] {logging_mixin.py:190} INFO - [2025-05-21T19:05:42.896+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/news_parser.py
+[2025-05-21T19:05:43.471+0000] {processor.py:925} INFO - DAG(s) 'news_parser' retrieved from /opt/airflow/dags/news_parser.py
+[2025-05-21T19:05:43.572+0000] {logging_mixin.py:190} INFO - [2025-05-21T19:05:43.568+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T19:05:43.657+0000] {logging_mixin.py:190} INFO - [2025-05-21T19:05:43.656+0000] {dag.py:4180} INFO - Setting next_dagrun for news_parser to 2025-05-20 09:00:00+00:00, run_after=2025-05-21 09:00:00+00:00
+[2025-05-21T19:05:43.721+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/news_parser.py took 0.872 seconds

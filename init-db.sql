@@ -1,6 +1,11 @@
 CREATE DATABASE news_db;
 GRANT ALL PRIVILEGES ON DATABASE news_db TO airflow;
 
+-- Создание БД для Superset
+CREATE DATABASE superset;
+CREATE USER superset WITH PASSWORD 'superset';
+GRANT ALL PRIVILEGES ON DATABASE superset TO superset;
+
 \c news_db
 
 CREATE TABLE IF NOT EXISTS news (
@@ -29,4 +34,15 @@ CREATE TABLE IF NOT EXISTS car_prices (
     file_actual_date DATE,
     processing_date TIMESTAMP,
     UNIQUE (brand, model, engine_volume, manufacture_year, file_actual_date)
+);
+
+-- Создание таблицы для курсов валют (если используется в вашем DAG)
+CREATE TABLE IF NOT EXISTS cur_rate (
+    valute_id VARCHAR(10) NOT NULL,
+    char_code VARCHAR(10) NOT NULL,
+    name VARCHAR(100) NOT NULL,
+    nominal INTEGER NOT NULL,
+    value FLOAT NOT NULL,
+    file_update_date DATE NOT NULL,
+    PRIMARY KEY (valute_id, file_update_date)
 );

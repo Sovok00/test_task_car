@@ -224,11 +224,11 @@ def process_file(**context):
         raise
 
 
-def load_to_greenplum(**context):
+def load_to_postgres(**context):
     """
-    Функция для загрузки данных в GreenPlum.
+    Функция для загрузки данных в postgres.
     """
-    logger.info(">>> [START] load_to_greenplum")
+    logger.info(">>> [START] load_to_postgres")
     conn = None
     cursor = None
 
@@ -240,7 +240,7 @@ def load_to_greenplum(**context):
             send_telegram_message(f"❌ <b>Ошибка в DAG test_car_5_tg</b>\n{error_msg}")
             raise ValueError(error_msg)
 
-        # Подключение к GreenPlum
+        # Подключение к postgres
         hook = PostgresHook(
             postgres_conn_id='postgres_default',
             schema='news_db'
@@ -304,10 +304,10 @@ def load_to_greenplum(**context):
             f"Дата выполнения: {context['execution_date']}"
         )
         send_telegram_message(success_msg)
-        logger.info(f"Successfully loaded {successful_inserts}/{len(records)} records to GreenPlum")
+        logger.info(f"Successfully loaded {successful_inserts}/{len(records)} records to postgres")
 
     except Exception as e:
-        error_msg = f"Ошибка в load_to_greenplum: {str(e)}"
+        error_msg = f"Ошибка в load_to_postgres: {str(e)}"
         send_telegram_message(f"❌ <b>Ошибка в DAG test_car_5_tg</b>\n{error_msg}")
         logger.error(f"DB error: {str(e)}", exc_info=True)
         if conn:
@@ -329,8 +329,8 @@ process_task = PythonOperator(
 )
 
 load_task = PythonOperator(
-    task_id='load_to_greenplum',
-    python_callable=load_to_greenplum,
+    task_id='load_to_postgres',
+    python_callable=load_to_postgres,
     provide_context=True,
     dag=dag,
 )
