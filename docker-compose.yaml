@@ -197,7 +197,7 @@ services:
         airflow connections add 'telegram_default' \
             --conn-type 'http' \
             --conn-host 'https://api.telegram.org' \
-            --conn-extra '{"token": "7397729622:AAEETzERAoIX5QGsm0f1rTpyf42eaQ6X3gw", "chat_id": "-1002687027811"}'
+            --conn-extra '{"token": "TOKEN", "chat_id": "CHAT_ID"}'
     environment:
       <<: *airflow-common-env
       _AIRFLOW_DB_MIGRATE: 'true'
